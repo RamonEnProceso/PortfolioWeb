@@ -1,0 +1,84 @@
+[
+    {
+        "name":"El Vueltero's Gallery",
+        "url": "https://el-vueltero.web.app/",
+        "thumbnail": "",
+        "description": {
+            "ES":"Galería de dibujos para la marca El Vueltero, enfocado en ser una experiencia Visual.",
+            "EN": "Drawing gallery for the El Vueltero brand, built around delivering a visual experience."
+        },
+        "stack": ["Typescript","React", "CSS"],
+        "libraries":["Three.js"]
+    },
+    {
+        "name":"Neo Aula Virtual",
+        "url": "https://neo-aula-virtual.web.app/",
+        "thumbnail": "",
+        "description": {
+            "ES": "Prototipo funcional para propuesta académica, sin backend de datos. Fusiona las dos apliciones de la UTN (SIU Guaraní y Aula Virtual), concentrando la experiencia en el alumno. Presentado para el CONAIISI 2026.",
+            "EN": "Functional prototype built for an academic proposal, with no data backend. Merges UTN's two separate platforms (SIU Guaraní and Aula Virtual) into a single student-centered experience. Presented at CONAIISI 2026."
+        },
+        "stack": ["Typescript","React", "CSS"]
+    },
+    {
+        "name":"Sistema de Servicio de Mantenimiento",
+        "thumbnail":"",
+        "description": {
+            "ES":"PROYECTO PRIVADO | Aplicación encargada para gestionar tareas de servicios de mantenimiento.",
+            "EN":"PRIVATE PROJECT | Application for managing maintenance service tasks."
+        },
+        "stack": ["Typescript", "React", "Python", "PostgreSQL", "Docker"],
+        "libraries":["FastAPI","SQLAlchemy"]
+    },
+    {
+        "name":"Visualizador de Materias UTN",
+        "url": "https://visualizador-materias.web.app/",
+        "thumbnail": "",
+        "description": {
+            "ES":"Mi primera app web hecha en Typescript y modificando el DOM. Una aplicación creada para visualizar las materias de la UTN. Permite ver la correlatividad entre materias y hacer un seguimiento visual a medida que se aprueban.",
+            "EN":"My first web app, built with TypeScript and direct DOM manipulation. Visualizes UTN's course structure, showing prerequisite relationships between subjects and letting students visually track their progress as they pass each one."
+        },
+        "stack": ["Typescript","CSS"]
+    },
+    {
+        "name":"Visualizador de Bondis",
+        "url": "https://visualizador-de-bondis.web.app/",
+        "thumbnail": "",
+        "description": {
+            "ES":"Página que permite convertir un listado de colectivos en una imágen. Enfocado para usar en redes.",
+            "EN":"Converts a list of bus lines into a shareable image, designed for posting on social media."
+        },
+        "stack": ["Typescript","React","CSS"]
+    },
+    {
+        "name":"Current Week",
+        "url": "https://ramonenproceso.github.io/CurrentWeek/",
+        "thumbnail": "",
+        "description": {
+            "ES":"App simple para administrar tareas, con un visualizador al lado que te permite ver la urgencia de esta.",
+            "EN":"A simple task manager with a side panel that visualizes how urgent each task is."
+        },
+        "stack": ["Typescript","React","CSS"]
+    },
+    {
+        "name":"TPs Laboratorio",
+        "url": "https://github.com/RamonEnProceso/LaboratorioFisica",
+        "thumbnail": "",
+        "description": {
+            "ES":"Aplicaciones enfocadas en la verificación de datos para los TPs de Física en la UTN, siguiendo los pasos de la cátedra. Además, genera gráficos para colocar en la documentación.",
+            "EN":"A set of tools for verifying lab data on UTN Physics assignments, following the course's required methodology. Also generates charts ready to include in the lab report."
+        },
+        "stack": ["Python"],
+        "libraries": ["Numpy", "Matplotlib"]
+    },
+    {
+        "name":"Separador Txt a Md",
+        "url":"https://github.com/RamonEnProceso/SeparadorTxtObsidian",
+        "thumbnail":"",
+        "description": {
+            "ES":"Mi primer programa. Creado para ayudarme a separar un archivo txt en distintos markdowns para insertar en Obsidian.",
+            "EN":"My first program. Built to split a single txt file into multiple Markdown files for use in Obsidian."
+        },
+        "stack": ["Python"]
+    }
+]
