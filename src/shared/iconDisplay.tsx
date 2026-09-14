@@ -1,7 +1,18 @@
 import type { ProgrammingAssets } from "../models/ProgrammingAssets";
+import programmingAssets  from "../assets/JSONs/programmingAssets.json";
 
-const iconDisplay = (data : ProgrammingAssets) => {
-    return <img src={data.icon} alt={`${data.name} icon`} title={`${data.name}`}></img>
+type ProgrammingAssetName = keyof typeof programmingAssets;
+
+const searchByName = (name:string): ProgrammingAssets => {
+    if (name in programmingAssets){
+        return programmingAssets[name as ProgrammingAssetName];
+    }
+    return programmingAssets["none"];
 }
 
-export default iconDisplay
+const IconDisplay = ({name}:{name : string}) => {
+    const data = searchByName(name);
+    return <img height="35px" src={data.icon} alt={`${data.name} icon`} title={`${data.name}`}></img>
+}
+
+export default IconDisplay;
