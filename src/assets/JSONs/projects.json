@@ -2,6 +2,7 @@
     {
         "name":"El Vueltero's Gallery",
         "url": "https://el-vueltero.web.app/",
+        "repo":"https://github.com/RamonEnProceso/El-Vueltero-gallery",
         "thumbnail": "",
         "description": {
             "ES":"Galería de dibujos para la marca El Vueltero, enfocado en ser una experiencia Visual.",
@@ -13,6 +14,7 @@
     {
         "name":"Neo Aula Virtual",
         "url": "https://neo-aula-virtual.web.app/",
+        "repo":"https://github.com/RamonEnProceso/NeoAulaVirtual",
         "thumbnail": "",
         "description": {
             "ES": "Prototipo funcional para propuesta académica, sin backend de datos. Fusiona las dos apliciones de la UTN (SIU Guaraní y Aula Virtual), concentrando la experiencia en el alumno. Presentado para el CONAIISI 2026.",
@@ -33,6 +35,7 @@
     {
         "name":"Visualizador de Materias UTN",
         "url": "https://visualizador-materias.web.app/",
+        "repo":"https://github.com/RamonEnProceso/visualizador-cursada-UTN",
         "thumbnail": "",
         "description": {
             "ES":"Mi primera app web hecha en Typescript y modificando el DOM. Una aplicación creada para visualizar las materias de la UTN. Permite ver la correlatividad entre materias y hacer un seguimiento visual a medida que se aprueban.",
@@ -43,6 +46,7 @@
     {
         "name":"Visualizador de Bondis",
         "url": "https://visualizador-de-bondis.web.app/",
+        "repo":"https://github.com/RamonEnProceso/Visualizador-de-Bondis",
         "thumbnail": "",
         "description": {
             "ES":"Página que permite convertir un listado de colectivos en una imágen. Enfocado para usar en redes.",
@@ -53,6 +57,7 @@
     {
         "name":"Current Week",
         "url": "https://ramonenproceso.github.io/CurrentWeek/",
+        "repo":"https://github.com/RamonEnProceso/CurrentWeek",
         "thumbnail": "",
         "description": {
             "ES":"App simple para administrar tareas, con un visualizador al lado que te permite ver la urgencia de esta.",
@@ -62,7 +67,7 @@
     },
     {
         "name":"TPs Laboratorio",
-        "url": "https://github.com/RamonEnProceso/LaboratorioFisica",
+        "repo": "https://github.com/RamonEnProceso/LaboratorioFisica",
         "thumbnail": "",
         "description": {
             "ES":"Aplicaciones enfocadas en la verificación de datos para los TPs de Física en la UTN, siguiendo los pasos de la cátedra. Además, genera gráficos para colocar en la documentación.",
@@ -73,7 +78,7 @@
     },
     {
         "name":"Separador Txt a Md",
-        "url":"https://github.com/RamonEnProceso/SeparadorTxtObsidian",
+        "repo":"https://github.com/RamonEnProceso/SeparadorTxtObsidian",
         "thumbnail":"",
         "description": {
             "ES":"Mi primer programa. Creado para ayudarme a separar un archivo txt en distintos markdowns para insertar en Obsidian.",
