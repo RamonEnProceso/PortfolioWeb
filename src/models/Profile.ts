@@ -7,5 +7,5 @@ export interface Profile {
     "bio": Record<Languages, string>,
     "email":string,
     "socialMedia": SocialMedia[],
-    "CV":string
+    "CV":Record<Languages, string>
 }
