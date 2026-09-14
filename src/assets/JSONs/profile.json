@@ -18,13 +18,13 @@
             "name": "Linkedin",
             "alt": "Linkedin | Ramón Ramírez",
             "url": "https://www.linkedin.com/in/ramon-ramirez-dev/",
-            "icon":"./icons/linkedin.webp"
+            "icon":"/icons/linkedin.webp"
         },
         {
             "name": "Github",
             "alt": "Github | RamonEnProceso",
             "url": "https://github.com/RamonEnProceso",
-            "icon":"./icons/github.webp"
+            "icon":"/icons/github.webp"
         }
     ],
     "CV":{
