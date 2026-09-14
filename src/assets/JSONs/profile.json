@@ -1,6 +1,7 @@
 {
     "firstName":"Ramón",
     "lastName": "Ramírez",
+    "photo": "/images/photo.webp",
     "location": "Ciudad de Buenos Aires, Argentina",
     "bio":{
         "ES":"Estudiante de Ingeniería en Sistemas en UTN y desarrollador full-stack. Además de código, dibujo e ilustro bajo mi propia marca, 'El Vueltero', lo que me da otra perspectiva al tratar interfaces.",
