@@ -1,9 +1,13 @@
 {
+    "none":{
+        "name":"Python",
+        "icon":"/icons/python.webp"
+    },
     "Python":{
         "name":"Python",
         "icon":"/icons/python.webp"
     },
-    "Typescript":{
+    "TypeScript":{
         "name":"TypeScript",
         "icon":"/icons/typescript.webp"
     },
@@ -50,5 +54,13 @@
     "C++":{
         "name": "C++",
         "icon": "/icons/cpp.webp"
+    },
+    "Figma":{
+        "name": "Figma",
+        "icon": "/icons/figma.webp"
+    },
+    "Debian":{
+        "name": "Debian | Linux",
+        "icon": "/icons/debian.webp"
     }
 }
