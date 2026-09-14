@@ -5,7 +5,7 @@
 
 - [x] Crear estructura inicial de `React + TypeScript`
 - [x] Crear datos de `Perfil` y `Proyectos`
-- [x] Agregar sección de perfil `profilePage`
+- [x] Agregar sección de perfil `profileHeader`
     - [ ] Agregar encabezado de perfil
     - [ ] Agregar componente con habilidades
 - [ ] Agregar sección de proyectos
