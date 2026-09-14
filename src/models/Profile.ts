@@ -11,6 +11,7 @@ interface Skills {
 export interface Profile {
     "firstName": string,
     "lastName": string,
+    "location": string,
     "bio": Record<Languages, string>,
     "skills": Skills,
     "email":string,
