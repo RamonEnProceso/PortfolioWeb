@@ -4,7 +4,13 @@
     "bio":{
         "ES":"Estudiante de Ingeniería en Sistemas en UTN y desarrollador full-stack. Además de código, dibujo e ilustro bajo mi propia marca, 'El Vueltero', lo que me da otra perspectiva al tratar interfaces."
     },
-    "email":"",
+    "email":"ramon.en.proceso@gmail.com",
+    "skills": {
+        "front": ["TypeScript", "React"],
+        "back": ["Python", "FastAPI", "PostgreSQL"],
+        "tools": ["Docker", "Figma", "Debian"],
+        "learning": ["C++"]
+    },
     "socialMedia":[
         {
             "name": "Linkedin",
