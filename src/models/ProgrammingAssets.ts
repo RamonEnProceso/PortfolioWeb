@@ -1,4 +1,4 @@
-export interface programmingAssets{
+export interface ProgrammingAssets{
     "name": string,
     "icon": string
 }
