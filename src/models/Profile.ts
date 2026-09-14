@@ -11,10 +11,12 @@ interface Skills {
 export interface Profile {
     "firstName": string,
     "lastName": string,
+    "photo":string,
     "location": string,
     "bio": Record<Languages, string>,
     "skills": Skills,
     "email":string,
     "socialMedia": SocialMedia[],
+    "languages":Record<Languages,string[]>,
     "CV":Record<Languages, string>
 }
