@@ -1,0 +1,38 @@
+import type { Profile } from "../../models/Profile";
+import type { Languages } from "../../models/Languages";
+import type { SocialMedia } from "../../models/SocialMedia";
+import { translateHeader } from "./translateHeader";
+import { CVButton } from "../CVButton/CVButton";
+
+const ProfileHeader = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
+    const photoText:string = `Foto de ${profileData.firstName} ${profileData.lastName}`;
+    
+    return <>
+    <div>
+        <h1>{profileData.firstName}, {profileData.lastName}</h1>
+        <div>
+            <img height="300px" alt={photoText} title={photoText} src={profileData.photo}></img>
+        </div>
+        <h3>{profileData.location}</h3>
+        <div>
+            {profileData.socialMedia.map((e:SocialMedia)=>{
+                return <a title={e.alt} href={e.url}><img alt ={`${e.name} logo`} src={e.icon}></img></a>
+            })}
+        </div>
+        <div>
+            <h3>{translateHeader(lan, "AboutMe")}</h3>
+            <p>{profileData.bio[lan]}</p>
+        </div>
+        <div>
+            <h3>{translateHeader(lan, "Languages")}</h3>
+            {profileData.languages[lan].map((e:string)=>{
+                return <p>{e}</p>})}
+        </div>
+        <div>
+            <CVButton profileData={profileData} lan={lan}/>
+        </div>
+    </div>
+    </>
+}
+
+export default ProfileHeader;
