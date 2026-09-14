@@ -20,6 +20,7 @@
         }
     ],
     "CV":{
-        "ES":"https://github.com/RamonEnProceso/PortfolioWeb/raw/refs/heads/main/public/CVs/CV_Ramon_Ramirez_P2026_ES.pdf?download="
+        "ES":"https://github.com/RamonEnProceso/PortfolioWeb/raw/refs/heads/main/public/CVs/CV_Ramon_Ramirez_P2026_ES.pdf?download=",
+        "EN":"https://github.com/RamonEnProceso/PortfolioWeb/raw/refs/heads/main/public/CVs/CV_Ramon_Ramirez_P2026_EN.pdf?download="
     }
 }
