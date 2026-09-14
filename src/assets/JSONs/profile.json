@@ -2,7 +2,8 @@
     "firstName":"Ramón",
     "lastName": "Ramírez",
     "bio":{
-        "ES":"Estudiante de Ingeniería en Sistemas en UTN y desarrollador full-stack. Además de código, dibujo e ilustro bajo mi propia marca, 'El Vueltero', lo que me da otra perspectiva al tratar interfaces."
+        "ES":"Estudiante de Ingeniería en Sistemas en UTN y desarrollador full-stack. Además de código, dibujo e ilustro bajo mi propia marca, 'El Vueltero', lo que me da otra perspectiva al tratar interfaces.",
+        "EN":"I’m a Systems Engineering student at UTN and a full-stack developer. Beyond coding, I draw and illustrate under my own brand, “El Vueltero,” which gives me a different perspective when designing and working with interfaces."
     },
     "email":"ramon.en.proceso@gmail.com",
     "skills": {
