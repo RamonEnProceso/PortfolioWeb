@@ -49,6 +49,10 @@
     filter: saturate(0);
 }
 
+.cardProject:hover .cardProjectStack{
+    filter:saturate(1);
+}
+
 .cardProjectStack img{
     height: 25px;
 }
