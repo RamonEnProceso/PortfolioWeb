@@ -7,16 +7,16 @@ export const translateProject = (tipo : Languages, header:ProjectHeader) => {
         case("Projects"):
             switch(tipo){
                 case("EN"):
-                    return "Projects"
+                    return "Projects";
                 case("ES"):
-                    return "Proyectos"
+                    return "Proyectos";
             }
         case("Libraries"):
             switch(tipo){
                 case("EN"):
-                    return "Libraries"
+                    return "Libraries";
                 case("ES"):
-                    return "Librerías"
+                    return "Librerías";
             }
     }
 }
