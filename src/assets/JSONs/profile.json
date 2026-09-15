@@ -14,7 +14,7 @@
     },
     "email":"ramon.en.proceso@gmail.com",
     "skills": {
-        "front": ["TypeScript", "React"],
+        "front": ["TypeScript", "React", "CSS"],
         "back": ["Python", "FastAPI", "PostgreSQL"],
         "tools": ["Docker", "Figma", "Debian"],
         "learning": ["C++"]
