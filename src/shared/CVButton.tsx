@@ -1,5 +1,6 @@
-import type { Profile } from "../../models/Profile";
-import type { Languages } from "../../models/Languages";
+import type { Profile } from "../models/Profile";
+import type { Languages } from "../models/Languages";
+import styles from "./CVButton.module.css"
 
 const transaleButton = (lan:Languages) : string => {
     switch (lan){
@@ -12,6 +13,8 @@ const transaleButton = (lan:Languages) : string => {
 
 export const CVButton = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
     return <>
-        <a href={profileData.CV[lan]}>{transaleButton(lan)}</a>
+        <a href={profileData.CV[lan]} className={styles.button}>
+            {transaleButton(lan)}
+        </a>
     </>
 }
