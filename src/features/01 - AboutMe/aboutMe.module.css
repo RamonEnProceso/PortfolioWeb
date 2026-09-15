@@ -5,8 +5,12 @@
     text-align: left;
     gap: 25px;
     max-width: 380px;
+    height: 100%;
+    justify-content: center;
 }
 
 .aboutMeContainer h3 {
     color: var(--text-h);
+    font-size: var(--h2-short);
+    margin: 0;
 }

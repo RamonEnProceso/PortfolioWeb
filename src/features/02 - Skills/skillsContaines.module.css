@@ -4,6 +4,8 @@
     align-items: flex-start;
     text-align: left;
     max-width: 280px;
+    height: 100%;
+    justify-content: center;
 }
 
 .stackContainer h3{
@@ -18,13 +20,19 @@
     gap: 10px;
     background-color: var(--text-h);
     padding: 5px;
+    transition: transform 0.65s;
 }
 
 .iconsDisplay img{
     filter: saturate(0);
-    transition: filter 0.25s;
+    transition: filter 0.25s, transform 0.2s;
 }
 
 .iconsDisplay img:hover{
     filter: saturate(1);
+    transform: scale(1.1);
+}
+
+.iconsDisplay:hover{
+    transform: scale(0.99);
 }

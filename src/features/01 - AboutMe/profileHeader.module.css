@@ -1,7 +1,8 @@
-:root{
-    --h1-longer:110px;
-    --h1-medium:90px;
-    --h1-short:60px;
-    --p-medium:50px;
-    --p-short:16px;
+.aboutMeSection {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: start;
+    justify-items: center;
+    gap: 60px;
 }
