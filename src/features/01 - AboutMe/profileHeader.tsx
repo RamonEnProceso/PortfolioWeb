@@ -2,7 +2,7 @@ import type { Profile } from "../../models/Profile";
 import type { Languages } from "../../models/Languages";
 import { translateHeader } from "./translateHeader";
 import { CVButton } from "../../shared/CVButton";
-import IconDisplay from "../../shared/iconDisplay";
+import SkillsContainer from "../02 - Skills/skillsContainer";
 
 const ProfileHeader = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
     
@@ -19,33 +19,7 @@ const ProfileHeader = ({profileData, lan}:{profileData:Profile, lan:Languages}) 
             {profileData.languages[lan].map((e:string)=>{
                 return <p>{e}</p>})}
         </div>
-        <div>
-            <h3>{translateHeader(lan, "Skills")}</h3>
-            <div>
-                <h4>Frontend</h4>
-                <div>
-                    {profileData.skills["front"].map((e)=>{
-                        return <IconDisplay name={e}/>
-                    })}
-                </div>
-            </div>
-            <div>
-                <h4>Backend</h4>
-                <div>
-                    {profileData.skills["back"].map((e)=>{
-                        return <IconDisplay name={e}/>
-                    })}
-                </div>
-            </div>
-            <div>
-                <h4>{translateHeader(lan,"Tools")}</h4>
-                <div>
-                    {profileData.skills["tools"].map((e)=>{
-                        return <IconDisplay name={e}/>
-                    })}
-                </div>
-            </div>
-        </div>
+        <SkillsContainer profileData={profileData} lan={lan}/>
         <div>
             <CVButton profileData={profileData} lan={lan}/>
         </div>
