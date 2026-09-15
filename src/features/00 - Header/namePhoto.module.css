@@ -85,3 +85,7 @@
 .socialMedia img{
     width: 40px;
 }
+
+.socialMedia img:hover{
+    transform: scale(1.05)
+}
