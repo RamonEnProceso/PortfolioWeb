@@ -23,11 +23,12 @@ const ProjectsSection = ({projectsData, lan, /*setProject*/}:{projectsData:Proje
                         </div>
                     </div>
                     <div className={styles.cardProjectRight}>
-                        <div>
-                            <img src={e.thumbnail} height="150px"></img>
-
+                        <div className={styles.cardProjectThumbnail}>
+                            <img src={e.thumbnail}></img>
                         </div>
-                        <LinksButton linkPage={e.url} linkRepo={e.repo}/>
+                        <div className={styles.cardProjectButtons}>
+                            <LinksButton linkPage={e.url} linkRepo={e.repo}/>
+                        </div>
                     </div>
                 </div>
             })}
