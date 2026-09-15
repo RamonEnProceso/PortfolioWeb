@@ -17,6 +17,11 @@ jobs:
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Descargar contenido de Git LFS
+        run: git lfs pull
 
       - name: Configurar Node.js
         uses: actions/setup-node@v4
