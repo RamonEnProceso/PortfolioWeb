@@ -1,3 +1,5 @@
+import styles from "./linksButton.module.css"
+
 const LinkRepo = ({url}:{url:string|undefined}) => {
     return url? <a href={url} target="_blank" rel="noopener noreferrer" title="Entrar a Repositorio">
         <img src="/icons/github.webp" height="50px" alt ="Github icon"/>
@@ -11,7 +13,7 @@ const LinkPage = ({url}:{url:string|undefined}) => {
 }
 
 const LinksButton = ({linkRepo, linkPage}:{linkRepo:string|undefined, linkPage:string|undefined}) => {
-    return <div>
+    return <div className={styles.links}>
     <LinkRepo url={linkRepo}/>
     <LinkPage url={linkPage}/>
     </div>

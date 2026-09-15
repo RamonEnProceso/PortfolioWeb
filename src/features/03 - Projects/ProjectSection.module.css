@@ -1,0 +1,61 @@
+.projectsSection h2{
+    color: var(--text-h);
+    font-size: var(--h2-medium);
+    font-weight: bold;
+    margin: 0;
+}
+
+.gridProjects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cardProject{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 360px;
+    padding: 15px 25px;
+    gap: 25px;
+    background-color: var(--text-h);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cardProjectLeft{
+    max-width: 200px;
+    
+    min-width: 170px;
+    color: var(--bg);
+}
+
+.cardProjectStack{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    filter: saturate(0);
+}
+
+.cardProjectStack img{
+    height: 25px;
+}
+
+.cardProjectLeft img{
+    max-width: 200px;
+}
+
+.cardProjectLeft h3{
+    height: 50px;
+}
+
+.cardProjectRight {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 10px;
+}
