@@ -23,16 +23,6 @@
         "stack": ["TypeScript","React", "CSS"]
     },
     {
-        "name":"Sistema de Servicio de Mantenimiento",
-        "thumbnail":"",
-        "description": {
-            "ES":"PROYECTO PRIVADO | Aplicación encargada para gestionar tareas de servicios de mantenimiento.",
-            "EN":"PRIVATE PROJECT | Application for managing maintenance service tasks."
-        },
-        "stack": ["TypeScript", "React", "Python", "PostgreSQL", "Docker"],
-        "libraries":["FastAPI","SQLAlchemy"]
-    },
-    {
         "name":"Visualizador de Materias UTN",
         "url": "https://visualizador-materias.web.app/",
         "repo":"https://github.com/RamonEnProceso/visualizador-cursada-UTN",
