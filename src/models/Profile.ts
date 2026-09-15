@@ -15,7 +15,7 @@ export interface Profile {
     "alt-photo":string,
     "headline":Record<Languages, string[]>,
     "location": string,
-    "bio": Record<Languages, string>,
+    "bio": Record<Languages, string[]>,
     "skills": Skills,
     "email":string,
     "socialMedia": SocialMedia[],
