@@ -8,11 +8,11 @@ import WindowProject from "./Projects/WindowProject";
 
 const PortfolioPage = () =>{
     const [project, setProject] = useState<Project | null>(null);
-    
+    const lan = "ES";
     return <>
-        <ProfileHeader profileData={profileData} lan="ES"/>
+        <ProfileHeader profileData={profileData} lan={lan}/>
         {/*<WindowProject data={project} />*/}
-        <ProjectsSection projectsData={projectsData} setProject={setProject}/>
+        <ProjectsSection lan={lan} projectsData={projectsData} setProject={setProject}/>
     </>
 }
 
