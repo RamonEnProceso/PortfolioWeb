@@ -3,12 +3,12 @@
         "name":"El Vueltero's Gallery",
         "url": "https://el-vueltero.web.app/",
         "repo":"https://github.com/RamonEnProceso/El-Vueltero-gallery",
-        "thumbnail": "",
+        "thumbnail": "/images/photo.webp",
         "description": {
             "ES":"Galería de dibujos para la marca El Vueltero, enfocado en ser una experiencia Visual.",
             "EN": "Drawing gallery for the El Vueltero brand, built around delivering a visual experience."
         },
-        "stack": ["Typescript","React", "CSS"],
+        "stack": ["TypeScript","React", "CSS"],
         "libraries":["Three.js"]
     },
     {
@@ -20,7 +20,7 @@
             "ES": "Prototipo funcional para propuesta académica, sin backend de datos. Fusiona las dos apliciones de la UTN (SIU Guaraní y Aula Virtual), concentrando la experiencia en el alumno. Presentado para el CONAIISI 2026.",
             "EN": "Functional prototype built for an academic proposal, with no data backend. Merges UTN's two separate platforms (SIU Guaraní and Aula Virtual) into a single student-centered experience. Presented at CONAIISI 2026."
         },
-        "stack": ["Typescript","React", "CSS"]
+        "stack": ["TypeScript","React", "CSS"]
     },
     {
         "name":"Sistema de Servicio de Mantenimiento",
@@ -29,7 +29,7 @@
             "ES":"PROYECTO PRIVADO | Aplicación encargada para gestionar tareas de servicios de mantenimiento.",
             "EN":"PRIVATE PROJECT | Application for managing maintenance service tasks."
         },
-        "stack": ["Typescript", "React", "Python", "PostgreSQL", "Docker"],
+        "stack": ["TypeScript", "React", "Python", "PostgreSQL", "Docker"],
         "libraries":["FastAPI","SQLAlchemy"]
     },
     {
@@ -38,10 +38,10 @@
         "repo":"https://github.com/RamonEnProceso/visualizador-cursada-UTN",
         "thumbnail": "",
         "description": {
-            "ES":"Mi primera app web hecha en Typescript y modificando el DOM. Una aplicación creada para visualizar las materias de la UTN. Permite ver la correlatividad entre materias y hacer un seguimiento visual a medida que se aprueban.",
+            "ES":"Mi primera app web hecha en TypeScript y modificando el DOM. Una aplicación creada para visualizar las materias de la UTN. Permite ver la correlatividad entre materias y hacer un seguimiento visual a medida que se aprueban.",
             "EN":"My first web app, built with TypeScript and direct DOM manipulation. Visualizes UTN's course structure, showing prerequisite relationships between subjects and letting students visually track their progress as they pass each one."
         },
-        "stack": ["Typescript","CSS"]
+        "stack": ["TypeScript","CSS"]
     },
     {
         "name":"Visualizador de Bondis",
@@ -52,7 +52,7 @@
             "ES":"Página que permite convertir un listado de colectivos en una imágen. Enfocado para usar en redes.",
             "EN":"Converts a list of bus lines into a shareable image, designed for posting on social media."
         },
-        "stack": ["Typescript","React","CSS"]
+        "stack": ["TypeScript","React","CSS"]
     },
     {
         "name":"Current Week",
@@ -63,7 +63,7 @@
             "ES":"App simple para administrar tareas, con un visualizador al lado que te permite ver la urgencia de esta.",
             "EN":"A simple task manager with a side panel that visualizes how urgent each task is."
         },
-        "stack": ["Typescript","React","CSS"]
+        "stack": ["TypeScript","React","CSS"]
     },
     {
         "name":"TPs Laboratorio",
