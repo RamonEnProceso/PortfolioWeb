@@ -1,66 +1,66 @@
 {
     "none":{
         "name":"Python",
-        "icon":"/icons/python.webp"
+        "icon":"icons/python.webp"
     },
     "Python":{
         "name":"Python",
-        "icon":"/icons/python.webp"
+        "icon":"icons/python.webp"
     },
     "TypeScript":{
         "name":"TypeScript",
-        "icon":"/icons/typescript.webp"
+        "icon":"icons/typescript.webp"
     },
     "CSS":{
         "name":"CSS",
-        "icon":"/icons/css.webp"
+        "icon":"icons/css.webp"
     },
     "React":{
         "name": "React",
-        "icon": "/icons/react.webp"
+        "icon": "icons/react.webp"
     },
     "PostgreSQL":{
         "name": "PostgreSQL",
-        "icon": "/icons/psql.webp"
+        "icon": "icons/psql.webp"
     },
     "Docker":{
         "name": "Docker",
-        "icon": "/icons/docker.webp"
+        "icon": "icons/docker.webp"
     },
     "Numpy":{
         "name": "Numpy",
-        "icon": "/icons/numpy.webp"
+        "icon": "icons/numpy.webp"
     },
     "Matplotlib":{
         "name": "Matplotlib",
-        "icon": "/icons/matplotlib.webp"
+        "icon": "icons/matplotlib.webp"
     },
     "Three.js":{
         "name":"Three.js",
-        "icon": "/icons/threejs.webp"
+        "icon": "icons/threejs.webp"
     },
     "FastAPI":{
         "name":"FastAPI",
-        "icon": "/icons/fastapi.webp"
+        "icon": "icons/fastapi.webp"
     },
     "SQLAlchemy":{
         "name":"SQLAlchemy",
-        "icon": "/icons/sqlalchemy.webp"
+        "icon": "icons/sqlalchemy.webp"
     },
     "SQL":{
         "name": "SQL",
-        "icon": "/icons/sql.webp"
+        "icon": "icons/sql.webp"
     },
     "C++":{
         "name": "C++",
-        "icon": "/icons/cpp.webp"
+        "icon": "icons/cpp.webp"
     },
     "Figma":{
         "name": "Figma",
-        "icon": "/icons/figma.webp"
+        "icon": "icons/figma.webp"
     },
     "Debian":{
         "name": "Debian | Linux",
-        "icon": "/icons/debian.webp"
+        "icon": "icons/debian.webp"
     }
 }

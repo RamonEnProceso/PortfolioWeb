@@ -1,8 +1,8 @@
 {
     "firstName":"Ramón",
     "lastName": "Ramírez",
-    "photo": "/images/photo.webp",
-    "alt-photo": "/images/photoAlt.webp",
+    "photo": "images/photo.webp",
+    "alt-photo": "images/photoAlt.webp",
     "headline":{
         "ES":["Desarrollador Fullstack", "Estudiante de Ingeniería en Sistemas"],
         "EN":["Full-Stack Developer", "Systems Engineering Student"]
@@ -24,13 +24,13 @@
             "name": "Linkedin",
             "alt": "Linkedin | Ramón Ramírez",
             "url": "https://www.linkedin.com/in/ramon-ramirez-dev/",
-            "icon":"/icons/linkedin.webp"
+            "icon":"icons/linkedin.webp"
         },
         {
             "name": "Github",
             "alt": "Github | RamonEnProceso",
             "url": "https://github.com/RamonEnProceso",
-            "icon":"/icons/github.webp"
+            "icon":"icons/github.webp"
         }
     ],
     "languages": {

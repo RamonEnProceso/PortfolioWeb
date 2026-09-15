@@ -67,7 +67,7 @@
 }
 
 body{
-  background-image: url("/background/Background-portfolio-light.webp");
+  background-image: url("./assets/background/Background-portfolio-light.webp");
   background-size: cover;
   background-attachment:fixed;
   background-position: right;
