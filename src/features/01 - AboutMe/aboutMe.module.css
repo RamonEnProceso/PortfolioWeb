@@ -1,0 +1,12 @@
+.aboutMeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 25px;
+    max-width: 380px;
+}
+
+.aboutMeContainer h3 {
+    color: var(--text-h);
+}
