@@ -9,7 +9,7 @@ const ProfileHeader = ({profileData, lan}:{profileData:Profile, lan:Languages}) 
     const photoText:string = `Foto de ${profileData.firstName} ${profileData.lastName}`;
     
     return <>
-    <div>
+    <section>
         <h1>{profileData.firstName}, {profileData.lastName}</h1>
         <div>
             <img height="300px" alt={photoText} title={photoText} src={profileData.photo}></img>
@@ -59,7 +59,7 @@ const ProfileHeader = ({profileData, lan}:{profileData:Profile, lan:Languages}) 
         <div>
             <CVButton profileData={profileData} lan={lan}/>
         </div>
-    </div>
+    </section>
     </>
 }
 
