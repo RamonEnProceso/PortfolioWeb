@@ -11,8 +11,11 @@ const ProfileHeader = ({profileData, lan}:{profileData:Profile, lan:Languages}) 
     return <>
     <section>
         <h1>{profileData.firstName}, {profileData.lastName}</h1>
+        <ul>{profileData.headline[lan].map((e:string)=>{
+            return <li>{e}</li>
+        })}</ul>
         <div>
-            <img height="300px" alt={photoText} title={photoText} src={profileData.photo}></img>
+            <img height="300px" alt={photoText} title={photoText} src={profileData["alt-photo"]}></img>
         </div>
         <h3>{profileData.location}</h3>
         <div>
