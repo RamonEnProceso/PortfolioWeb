@@ -1,7 +1,10 @@
 # Historial de Cambios
 > Todas las modificaciones que se fueron agregando al proyecto.
 
-## v0.0.2 - 2026-09-15
+## v0.1.0 - MVP
+> Base del Portfolio
+
+### v0.0.2 - 2026-09-15
 > Continuando MVP
 - Creción de sección Proyectos
     - Cards de Proyectos
@@ -9,8 +12,12 @@
         - Display de ventana con más datos
         - Mostrar miniaturas
         - Mostrar lenguajes
+- Añadir `style` en cada componente
+- Añadir minaturas de todos los proyectos
+    - Modificar rutas de `Proyects.json` para mostrarlas
+- Añadir `headline` y `altPhoto` a Profile
 
-## V0.0.1 - 2026-09-14
+### V0.0.1 - 2026-09-14
 > Creando MVP
 - Creación de estructuras de datos:
     - Perfil
