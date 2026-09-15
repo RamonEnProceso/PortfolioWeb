@@ -4,7 +4,7 @@ import SkillsContainer from "../02 - Skills/skillsContainer";
 import AboutMeContainer from "./aboutMe";
 import styles from "./profileHeader.module.css"
 
-const ProfileHeader = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
+const ProfileBioSkills = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
     
     return <section className={styles.aboutMeContainer}>
     <div className={styles.aboutMeDiv}>
@@ -14,4 +14,4 @@ const ProfileHeader = ({profileData, lan}:{profileData:Profile, lan:Languages}) 
     </section>
 }
 
-export default ProfileHeader;
+export default ProfileBioSkills;
