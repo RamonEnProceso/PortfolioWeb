@@ -63,6 +63,13 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url("/background/Background-portfolio-light.webp");
+  background-size: cover;
+  background-attachment:fixed;
+  background-position: right;
+}
+
 h1,
 h2 {
   font-family: var(--heading);
