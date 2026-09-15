@@ -6,3 +6,7 @@
     align-items: center;
     justify-content: right;
 }
+
+.links a:hover {
+    transform: scale(1.05);
+}
