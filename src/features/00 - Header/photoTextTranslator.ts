@@ -6,6 +6,6 @@ export const photoTextTranslator = (profileData:Profile,lan:Languages) => {
         case "ES":
             return `Foto de ${profileData.firstName} ${profileData.lastName}`;
         case "EN":
-            return `${profileData.firstName} ${profileData.lastName}'s Photo`;
+            return `Photo of ${profileData.firstName} ${profileData.lastName}`;
     }
 }
