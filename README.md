@@ -13,5 +13,6 @@ Para descargar el programa y usarlo desde tu pc local, solo ingresa estos comand
 git clone https://github.com/RamonEnProceso/PortfolioWeb.git
 cd ./PortfolioWeb
 npm i
+git lfs pull
 npm run dev
 ```
