@@ -1,6 +1,6 @@
 import profileData from "../assets/JSONs/profile.json"
 import projectsData from "../assets/JSONs/projects.json"
-import ProfileHeader from "./01 - AboutMe/profileHeader";
+import ProfileHeader from "./01 - AboutMe/profileBioSkills";
 import ProjectsSection from "./03 - Projects/ProjectSection";
 import NamePhoto from "./00 - Header/namePhoto";
 /*import type { Project } from "../models/Project";
