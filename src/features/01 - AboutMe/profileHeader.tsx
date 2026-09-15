@@ -10,7 +10,9 @@ const ProfileHeader = ({profileData, lan}:{profileData:Profile, lan:Languages}) 
     <section>
         <div>
             <h3>{translateHeader(lan, "AboutMe")}</h3>
-            <p>{profileData.bio[lan]}</p>
+            <p>{profileData.bio[lan].map((e:string)=>{
+                return <p>{e}</p>
+            })}</p>
         </div>
         <div>
             <h3>{translateHeader(lan, "Languages")}</h3>
