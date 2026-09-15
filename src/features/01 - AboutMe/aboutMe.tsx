@@ -13,7 +13,7 @@ const AboutMeContainer = ({profileData, lan}:{profileData:Profile, lan:Languages
             })}</p>
         </div>
         <div>
-            <h3>{translateHeader(lan, "Languages")}</h3>
+            <h4>{translateHeader(lan, "Languages")}</h4>
             {profileData.languages[lan].map((e:string)=>{
                 return <p>{e}</p>})}
         </div>
