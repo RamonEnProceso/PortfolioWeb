@@ -1,9 +1,11 @@
 import type { Profile } from "../../models/Profile"
 import type { Languages } from "../../models/Languages"
+import { photoTextTranslator } from "./photoTextTranslator"
 import styles from "./namePhoto.module.css"
 
 const NamePhoto = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
-    const photoText:string = `Foto de ${profileData.firstName} ${profileData.lastName}`;
+    const photoText:string = photoTextTranslator(profileData,lan);
+    
     return <div className={styles.section}>
         <div className={styles.namePhotoContainer}>
             <div className={styles.namePhotoContainerLeft}>
