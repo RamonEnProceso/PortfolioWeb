@@ -47,10 +47,6 @@
         "name":"SQLAlchemy",
         "icon": "icons/sqlalchemy.webp"
     },
-    "SQL":{
-        "name": "SQL",
-        "icon": "icons/sql.webp"
-    },
     "C++":{
         "name": "C++",
         "icon": "icons/cpp.webp"
