@@ -1,5 +1,6 @@
 import type { Profile } from "../../models/Profile"
 import type { Languages } from "../../models/Languages"
+import type { SocialMedia } from "../../models/SocialMedia"
 import { photoTextTranslator } from "./photoTextTranslator"
 import styles from "./namePhoto.module.css"
 
@@ -17,7 +18,7 @@ const NamePhoto = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
                 })}</ul>
 
                 <div className={styles.socialMedia}>
-                    {profileData.socialMedia.map((e:any)=>{
+                    {profileData.socialMedia.map((e:SocialMedia)=>{
                         return <a title={e.alt} href={e.url} target="_blank" rel="noopener noreferrer"><img alt ={`${e.name} logo`} src={e.icon}></img></a>
                     })}
                 </div>
