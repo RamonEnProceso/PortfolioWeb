@@ -2,7 +2,7 @@ import type { Profile } from "../../models/Profile";
 import type { Languages } from "../../models/Languages";
 import SkillsContainer from "../02 - Skills/skillsContainer";
 import AboutMeContainer from "./aboutMe";
-import styles from "./profileHeader.module.css"
+import styles from "./profileBioSkills.module.css"
 
 const ProfileBioSkills = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
     
