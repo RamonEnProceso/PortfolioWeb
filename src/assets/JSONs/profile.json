@@ -2,6 +2,11 @@
     "firstName":"Ramón",
     "lastName": "Ramírez",
     "photo": "/images/photo.webp",
+    "alt-photo": "/images/photoAlt.webp",
+    "headline":{
+        "ES":["Desarrollador Fullstack", "Estudiante de Ingeniería en Sistemas"],
+        "EN":["Full-Stack Developer", "Systems Engineering Student"]
+    },
     "location": "Ciudad de Buenos Aires, Argentina",
     "bio":{
         "ES":"Estudiante de Ingeniería en Sistemas en UTN y desarrollador full-stack. Además de código, dibujo e ilustro bajo mi propia marca, 'El Vueltero', lo que me da otra perspectiva al tratar interfaces.",

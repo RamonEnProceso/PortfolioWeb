@@ -12,6 +12,8 @@ export interface Profile {
     "firstName": string,
     "lastName": string,
     "photo":string,
+    "alt-photo":string,
+    "headline":Record<Languages, string[]>,
     "location": string,
     "bio": Record<Languages, string>,
     "skills": Skills,
