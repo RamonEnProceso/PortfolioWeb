@@ -20,3 +20,7 @@
     font-size: var(--h3-medium);
     margin: 0;
 }
+
+.aboutMeContainer p{
+    margin: 20px 0;
+}

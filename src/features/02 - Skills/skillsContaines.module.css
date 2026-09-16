@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    max-width: 280px;
+    width: 250px;
     height: 100%;
     justify-content: center;
 }
@@ -11,7 +11,7 @@
 .stackContainer h3{
     color: var(--text-h);
     font-size: var(--h2-short);
-    margin: 0;
+    margin: 0 0 15px 0;
 }
 
 .iconsDisplay{
@@ -24,7 +24,7 @@
 }
 
 .iconsDisplay img{
-    filter: saturate(0);
+    filter: saturate(0) contrast(1.25);
     transition: filter 0.25s, transform 0.2s;
 }
 
@@ -35,4 +35,8 @@
 
 .iconsDisplay:hover{
     transform: scale(0.99);
+}
+
+.stackContainer h4{
+    margin: 10px 0;
 }

@@ -27,8 +27,8 @@
     flex-direction: row;
     justify-content: space-between;
     width: 360px;
-    padding: 15px 25px;
-    min-height: 100px;
+    padding: 15px 15px;
+    height: 140px;
     gap: 25px;
     background-color: var(--text-h);
     border-radius: 15px;
@@ -39,6 +39,9 @@
     max-width: 200px;
     min-width: 170px;
     color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -47,10 +50,13 @@
     flex-direction: row;
     gap: 6px;
     filter: saturate(0);
+    opacity: 0.2;
+    transition: filter 0.2s, opacity 0.25s;
 }
 
 .cardProject:hover .cardProjectStack{
     filter:saturate(1);
+    opacity: 1;
 }
 
 .cardProjectStack img{
@@ -63,6 +69,8 @@
 
 .cardProjectLeft h3{
     height: 60px;
+    font-size: var(--p-short);
+    max-width: 160px;
     margin: 0;
 }
 
@@ -88,7 +96,7 @@
 .cardProjectThumbnail{
     position: absolute;
     top: -20px;
-    right: -25px;
+    right: -15px;
     z-index: 0;
 }
 
@@ -100,6 +108,6 @@
     height: 100%;
     z-index: 2;
     position: absolute;
-    left: 15px;
+    left: 5px;
     bottom: -10px;
 }
