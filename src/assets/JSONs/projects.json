@@ -5,8 +5,8 @@
         "repo":"https://github.com/RamonEnProceso/El-Vueltero-gallery",
         "thumbnail": ["thumbnails/thumbnail-elVueltero-0.webp","thumbnails/thumbnail-elVueltero-1.webp"],
         "description": {
-            "ES":"Galería de dibujos para la marca El Vueltero, enfocado en ser una experiencia Visual.",
-            "EN": "Drawing gallery for the El Vueltero brand, built around delivering a visual experience."
+            "ES":["Galería de dibujos para la marca El Vueltero.","Enfocado en ser una experiencia Visual."],
+            "EN":["Drawing gallery for the El Vueltero brand.","Built around delivering a visual experience."]
         },
         "stack": ["TypeScript","React", "CSS"],
         "libraries":["Three.js"]
@@ -17,8 +17,8 @@
         "repo":"https://github.com/RamonEnProceso/NeoAulaVirtual",
         "thumbnail": ["thumbnails/thumbnail-neoAula-0.webp","thumbnails/thumbnail-neoAula-1.webp","thumbnails/thumbnail-neoAula-2.webp"],
         "description": {
-            "ES": "Prototipo funcional para propuesta académica, sin backend de datos. Fusiona las dos apliciones de la UTN (SIU Guaraní y Aula Virtual), concentrando la experiencia en el alumno. Presentado para el CONAIISI 2026.",
-            "EN": "Functional prototype built for an academic proposal, with no data backend. Merges UTN's two separate platforms (SIU Guaraní and Aula Virtual) into a single student-centered experience. Presented at CONAIISI 2026."
+            "ES": ["Presentado para el CONAIISI 2026.","Fusiona las dos apliciones de la UTN (SIU Guaraní y Aula Virtual), concentrando la experiencia en el alumno.","Prototipo funcional para propuesta académica, sin backend de datos."],
+            "EN": ["Presented at CONAIISI 2026.","Merges UTN's two separate platforms (SIU Guaraní and Aula Virtual) into a single student-centered experience.","Functional prototype built for an academic proposal, with no data backend."]
         },
         "stack": ["TypeScript","React", "CSS"]
     },
@@ -28,8 +28,8 @@
         "repo":"https://github.com/RamonEnProceso/visualizador-cursada-UTN",
         "thumbnail": ["thumbnails/thumbnail-visualizadorUTN-0.webp","thumbnails/thumbnail-visualizadorUTN-1.webp"],
         "description": {
-            "ES":"Mi primera app web hecha en TypeScript y modificando el DOM. Una aplicación creada para visualizar las materias de la UTN. Permite ver la correlatividad entre materias y hacer un seguimiento visual a medida que se aprueban.",
-            "EN":"My first web app, built with TypeScript and direct DOM manipulation. Visualizes UTN's course structure, showing prerequisite relationships between subjects and letting students visually track their progress as they pass each one."
+            "ES":["Mi primera app web hecha en TypeScript y modificando el DOM.","Una aplicación creada para visualizar las materias de la UTN.","Permite ver la correlatividad entre materias y hacer un seguimiento visual a medida que se aprueban."],
+            "EN":["My first web app, built with TypeScript and direct DOM manipulation.","Visualizes UTN's course structure, showing prerequisite relationships between subjects and letting students visually track their progress as they pass each one."]
         },
         "stack": ["TypeScript","CSS"]
     },
@@ -39,8 +39,8 @@
         "repo":"https://github.com/RamonEnProceso/Visualizador-de-Bondis",
         "thumbnail": ["thumbnails/thumbnail-visualizadorBondis-0.webp","thumbnails/thumbnail-visualizadorBondis-1.webp"],
         "description": {
-            "ES":"Página que permite convertir un listado de colectivos en una imágen. Enfocado para usar en redes.",
-            "EN":"Converts a list of bus lines into a shareable image, designed for posting on social media."
+            "ES":["Página que permite convertir un listado de colectivos en una imágen.","Enfocado para usar en redes."],
+            "EN":["Converts a list of bus lines into a shareable image.","Designed for posting on social media."]
         },
         "stack": ["TypeScript","React","CSS"]
     },
@@ -50,8 +50,8 @@
         "repo":"https://github.com/RamonEnProceso/CurrentWeek",
         "thumbnail": ["thumbnails/thumbnail-currentWeek-0.webp"],
         "description": {
-            "ES":"App simple para administrar tareas, con un visualizador al lado que te permite ver la urgencia de esta.",
-            "EN":"A simple task manager with a side panel that visualizes how urgent each task is."
+            "ES":["App simple para administrar tareas, con un visualizador al lado que te permite ver la urgencia de esta."],
+            "EN":["A simple task manager with a side panel that visualizes how urgent each task is."]
         },
         "stack": ["TypeScript","React","CSS"]
     },
@@ -60,8 +60,8 @@
         "repo": "https://github.com/RamonEnProceso/LaboratorioFisica",
         "thumbnail": ["thumbnails/thumbnail-tpLab-1.webp","thumbnails/thumbnail-tpLab-0.webp"],
         "description": {
-            "ES":"Aplicaciones enfocadas en la verificación de datos para los TPs de Física en la UTN, siguiendo los pasos de la cátedra. Además, genera gráficos para colocar en la documentación.",
-            "EN":"A set of tools for verifying lab data on UTN Physics assignments, following the course's required methodology. Also generates charts ready to include in the lab report."
+            "ES":["Aplicaciones enfocadas en la verificación de datos para los TPs de Física en la UTN, respetando pasos de la cátedra.","Genera gráficos para colocar en la documentación."],
+            "EN":["A set of tools for verifying lab data on UTN Physics assignments, following the course's required methodology.", "Also generates charts ready to include in the lab report."]
         },
         "stack": ["Python"],
         "libraries": ["Numpy", "Matplotlib"]
@@ -71,8 +71,8 @@
         "repo":"https://github.com/RamonEnProceso/SeparadorTxtObsidian",
         "thumbnail":["thumbnails/thumbnail-txtToMd-0.webp"],
         "description": {
-            "ES":"Mi primer programa. Creado para ayudarme a separar un archivo txt en distintos markdowns para insertar en Obsidian.",
-            "EN":"My first program. Built to split a single txt file into multiple Markdown files for use in Obsidian."
+            "ES":["Mi primer programa.","Creado para ayudarme a separar un archivo txt en distintos markdowns para insertar en Obsidian."],
+            "EN":["My first program.","Built to split a single txt file into multiple Markdown files for use in Obsidian."]
         },
         "stack": ["Python"]
     }
