@@ -1,0 +1,53 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    justify-items: end;
+    position:fixed;
+    width: 100dvw;
+    background-color: var(--text-h);
+    z-index: 10;
+}
+
+.index, .buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    font-size: var(--p-medium);
+}
+
+.index{
+    justify-content: left;
+    gap: 5px;
+}
+
+.index a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 135px;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: var(--bg);
+}
+
+.index a:visited{
+    color: var(--bg);
+}
+
+.index a:hover{
+    background-color: var(--bg);
+    color: var(--text-h);
+}
+
+.buttons{
+    justify-content: right;
+    width: fit-content;
+}
+
+.buttons button{
+    font-size: var(--p-short);
+    padding: 15px 16px;
+    border: none;
+}
