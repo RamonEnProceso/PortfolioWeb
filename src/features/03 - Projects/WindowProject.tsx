@@ -36,7 +36,13 @@ const WindowProject = ({data}:{data:Pick<PageData,"project"|"setProject"|"lan">}
                         <LinksButton linkPage={projectSelected.url} linkRepo={projectSelected.repo}/>
                     </div>
                 </div>
-                <div></div>
+                <div className={styles.windowRight}>
+                        {projectSelected.video?<video src={projectSelected.video}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline/>:<p>--No hay video de demostración--</p>}
+                </div>
             </div>
         )
         }
