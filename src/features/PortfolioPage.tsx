@@ -8,7 +8,7 @@ import { useState } from "react";
 import type { Languages } from "../models/Languages";
 import type { PageData } from "../models/PageData";
 import Menu from "./Menu/portfolioNav";
-/*import WindowProject from "./03 - Projects/WindowProject";*/
+import WindowProject from "./03 - Projects/WindowProject";
 
 const PortfolioPage = () =>{
     const [project, setProject] = useState<Project | null>(null);
@@ -17,6 +17,7 @@ const PortfolioPage = () =>{
     const pageData :PageData ={
         "lan":lan,
         "setLan": setLan,
+        "project": project,
         "profileData":profileData,
         "projectsData":projectsData,
         "setProject": setProject
@@ -24,10 +25,12 @@ const PortfolioPage = () =>{
 
     return <>
         <Menu data={pageData}/>
-        <NamePhoto data={pageData}/>
-        <ProfileHeader data={pageData}/>
-        {/*<WindowProject data={project} />*/}
-        <ProjectsSection data={pageData}/>
+        <WindowProject data={pageData} />
+        <div className="sections">
+            <NamePhoto data={pageData}/>
+            <ProfileHeader data={pageData}/>
+            <ProjectsSection data={pageData}/>
+        </div>
     </>
 }
 
