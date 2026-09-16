@@ -1,13 +1,14 @@
-import type { Profile } from "../../models/Profile"
-import type { Languages } from "../../models/Languages"
+import type { PageData } from "../../models/PageData"
 import type { SocialMedia } from "../../models/SocialMedia"
 import { photoTextTranslator } from "./photoTextTranslator"
 import styles from "./namePhoto.module.css"
 
-const NamePhoto = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
+const NamePhoto = ({data}:{data:PageData}) => {
+    const profileData = data.profileData;
+    const lan = data.lan;
     const photoText:string = photoTextTranslator(profileData,lan);
-    
-    return <div className={styles.section}>
+
+    return <section className={styles.section} id="home">
         <div className={styles.namePhotoContainer}>
             <div className={styles.namePhotoContainerLeft}>
 
@@ -38,7 +39,7 @@ const NamePhoto = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 }
 
 export default NamePhoto

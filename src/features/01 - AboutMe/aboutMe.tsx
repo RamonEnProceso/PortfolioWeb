@@ -1,24 +1,23 @@
-import type { Profile } from "../../models/Profile";
-import type { Languages } from "../../models/Languages";
 import { translateHeader } from "./translateHeader";
 import { CVButton } from "../../shared/CVButton";
+import type { PageData } from "../../models/PageData";
 import styles from "./aboutMe.module.css"
 
-const AboutMeContainer = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
+const AboutMeContainer = ({data}:{data:PageData}) => {
     return <div className={styles.aboutMeContainer}>
         <div>
-            <h3>{translateHeader(lan, "AboutMe")}</h3>
-            <p>{profileData.bio[lan].map((e:string)=>{
+            <h3>{translateHeader(data.lan, "AboutMe")}</h3>
+            <p>{data.profileData.bio[data.lan].map((e:string)=>{
                 return <p>{e}</p>
             })}</p>
         </div>
         <div>
-            <h4>{translateHeader(lan, "Languages")}</h4>
-            {profileData.languages[lan].map((e:string)=>{
+            <h4>{translateHeader(data.lan, "Languages")}</h4>
+            {data.profileData.languages[data.lan].map((e:string)=>{
                 return <p>{e}</p>})}
         </div>
         <div>
-            <CVButton profileData={profileData} lan={lan}/>
+            <CVButton profileData={data.profileData} lan={data.lan}/>
         </div>
     </div>
 }

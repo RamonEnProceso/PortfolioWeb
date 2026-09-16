@@ -1,15 +1,14 @@
-import type { Profile } from "../../models/Profile";
-import type { Languages } from "../../models/Languages";
 import SkillsContainer from "../02 - Skills/skillsContainer";
 import AboutMeContainer from "./aboutMe";
+import type { PageData } from "../../models/PageData";
 import styles from "./profileBioSkills.module.css"
 
-const ProfileBioSkills = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
+const ProfileBioSkills = ({data}:{data:PageData}) => {
     
-    return <section className={styles.aboutMeContainer}>
+    return <section className={styles.aboutMeContainer} id="about">
     <div className={styles.aboutMeDiv}>
-        <AboutMeContainer profileData={profileData} lan={lan}/>
-        <SkillsContainer profileData={profileData} lan={lan}/>
+        <AboutMeContainer data={data}/>
+        <SkillsContainer data={data}/>
     </div>
     </section>
 }

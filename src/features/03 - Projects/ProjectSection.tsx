@@ -1,18 +1,15 @@
-import type { Project } from "../../models/Project"
 import IconDisplay from "../../shared/iconDisplay"
 import LinksButton from "./linksButton"
 /*import type { SetStateAction, Dispatch } from "react"*/
 import { translateProject } from "./translateProjects"
-import type { Languages } from "../../models/Languages"
+import type { PageData } from "../../models/PageData"
 import styles from "./ProjectSection.module.css"
 
-const ProjectsSection = ({projectsData, lan, /*setProject*/}:{projectsData:Project[],
-    lan:Languages,
-    /*setProject: Dispatch<SetStateAction<Project | null>>*/}) => {
-    return  <section className={styles.projectsSection}>
-        <h2>{translateProject(lan,"Projects")}</h2>
+const ProjectsSection = ({data}:{data:PageData}) => {
+    return  <section className={styles.projectsSection} id="projects">
+        <h2>{translateProject(data.lan,"Projects")}</h2>
         <div className={styles.gridProjects}>
-            {projectsData.map((e)=>{
+            {data.projectsData.map((e)=>{
                 return <div /*onClick={()=>{setProject(e)}}*/ className={styles.cardProject}>
                     <div className={styles.cardProjectLeft}>
                         <h3>{e.name}</h3>
