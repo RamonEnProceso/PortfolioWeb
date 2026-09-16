@@ -7,5 +7,6 @@ export interface Project {
     "thumbnail": string[],
     "description": Record<Languages, string[]>,
     "stack": string[],
-    "libraries"?: string[]
+    "libraries"?: string[],
+    "video"?:string
 }       

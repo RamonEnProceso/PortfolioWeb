@@ -9,7 +9,8 @@
             "EN":["Drawing gallery for the El Vueltero brand.","Built around delivering a visual experience."]
         },
         "stack": ["TypeScript","React", "CSS"],
-        "libraries":["Three.js"]
+        "libraries":["Three.js"],
+        "video":"video/screen-elVueltero.webm"
     },
     {
         "name":"Neo Aula Virtual",
@@ -20,7 +21,8 @@
             "ES": ["Presentado para el CONAIISI 2026.","Fusiona las dos apliciones de la UTN (SIU Guaraní y Aula Virtual), concentrando la experiencia en el alumno.","Prototipo funcional para propuesta académica, sin backend de datos."],
             "EN": ["Presented at CONAIISI 2026.","Merges UTN's two separate platforms (SIU Guaraní and Aula Virtual) into a single student-centered experience.","Functional prototype built for an academic proposal, with no data backend."]
         },
-        "stack": ["TypeScript","React", "CSS"]
+        "stack": ["TypeScript","React", "CSS"],
+        "video":"video/screen-neoAulaVirtual.webm"
     },
     {
         "name":"Visualizador de Materias UTN",
@@ -31,7 +33,8 @@
             "ES":["Mi primera app web hecha en TypeScript y modificando el DOM.","Una aplicación creada para visualizar las materias de la UTN.","Permite ver la correlatividad entre materias y hacer un seguimiento visual a medida que se aprueban."],
             "EN":["My first web app, built with TypeScript and direct DOM manipulation.","Visualizes UTN's course structure, showing prerequisite relationships between subjects and letting students visually track their progress as they pass each one."]
         },
-        "stack": ["TypeScript","CSS"]
+        "stack": ["TypeScript","CSS"],
+        "video":"video/screen-visualizadorMaterias.webm"
     },
     {
         "name":"Visualizador de Bondis",
@@ -42,7 +45,8 @@
             "ES":["Página que permite convertir un listado de colectivos en una imágen.","Enfocado para usar en redes."],
             "EN":["Converts a list of bus lines into a shareable image.","Designed for posting on social media."]
         },
-        "stack": ["TypeScript","React","CSS"]
+        "stack": ["TypeScript","React","CSS"],
+        "video":"video/screen-visualizadorBondi.webm"
     },
     {
         "name":"Current Week",
@@ -53,7 +57,8 @@
             "ES":["App simple para administrar tareas, con un visualizador al lado que te permite ver la urgencia de esta."],
             "EN":["A simple task manager with a side panel that visualizes how urgent each task is."]
         },
-        "stack": ["TypeScript","React","CSS"]
+        "stack": ["TypeScript","React","CSS"],
+        "video":"video/screen-currentWeek.webm"
     },
     {
         "name":"TPs Laboratorio",
