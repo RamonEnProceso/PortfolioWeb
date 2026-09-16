@@ -5,6 +5,7 @@ import type { SetStateAction, Dispatch } from "react";
 
 export interface PageData {
     projectsData:Project[];
+    project: Project|null;
     profileData: Profile;
     lan:Languages;
     setLan:Dispatch<SetStateAction<Languages>>;
