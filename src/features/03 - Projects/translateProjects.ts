@@ -2,21 +2,15 @@ import type { Languages } from "../../models/Languages";
 
 type ProjectHeader = "Projects" | "Libraries";
 
-export const translateProject = (tipo : Languages, header:ProjectHeader) => {
-    switch(header){
-        case("Projects"):
-            switch(tipo){
-                case("EN"):
-                    return "Projects";
-                case("ES"):
-                    return "Proyectos";
-            }
-        case("Libraries"):
-            switch(tipo){
-                case("EN"):
-                    return "Libraries";
-                case("ES"):
-                    return "Librerías";
-            }
+export const translateProject = (lan : Languages, header:ProjectHeader) => {
+    const headerObj : Record<ProjectHeader,Record<Languages, string>> = {
+        "Projects":{
+            "EN":"Projects",
+            "ES":"Proyectos"},
+        "Libraries":{
+            "EN":"Libraries",
+            "ES":"Librerías"
+        }
     }
+    return headerObj[header][lan];
 }
