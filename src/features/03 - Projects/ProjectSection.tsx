@@ -5,12 +5,12 @@ import { translateProject } from "./translateProjects"
 import type { PageData } from "../../models/PageData"
 import styles from "./ProjectSection.module.css"
 
-const ProjectsSection = ({data}:{data:Pick<PageData, "lan" | "projectsData">}) => {
+const ProjectsSection = ({data}:{data:Pick<PageData, "lan" | "projectsData" | "setProject">}) => {
     return  <section className={styles.projectsSection} id="projects">
         <h2>{translateProject(data.lan,"Projects")}</h2>
         <div className={styles.gridProjects}>
             {data.projectsData.map((e)=>{
-                return <div /*onClick={()=>{setProject(e)}}*/ className={styles.cardProject}>
+                return <div onClick={()=>{data.setProject(e)}} className={styles.cardProject}>
                     <div className={styles.cardProjectLeft}>
                         <h3>{e.name}</h3>
                         <div className={styles.cardProjectStack}>
