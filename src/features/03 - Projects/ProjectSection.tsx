@@ -24,7 +24,7 @@ const ProjectsSection = ({projectsData, lan, /*setProject*/}:{projectsData:Proje
                     </div>
                     <div className={styles.cardProjectRight}>
                         <div className={styles.cardProjectThumbnail}>
-                            <img src={e.thumbnail}></img>
+                            <img src={e.thumbnail[0]}></img>
                         </div>
                         <div className={styles.cardProjectButtons}>
                             <LinksButton linkPage={e.url} linkRepo={e.repo}/>
