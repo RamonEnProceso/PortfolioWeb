@@ -17,7 +17,7 @@
 - [ ] Añadir CSS Module a la página
     - [x] Perfil
     - [x] Proyectos
-    - [ ] Boton de idioma
+    - [x] Boton de idioma
     - [ ] Footer
 - [ ] Implementar responsive design
 - [ ] Diseñar identidad visual
