@@ -63,15 +63,23 @@
     left: 0;
 }
 
+@property --dot-r {
+  syntax: '<percentage>';
+  initial-value: 100%;
+  inherits: false;
+}
+
 .photoDiv_altImg{
     z-index: 2;
-    transition: opacity 0.25s;
+    mask-image: radial-gradient(circle at center, black var(--dot-r), transparent var(--dot-r));
+    mask-size: 7px 7px;
+    transition: --dot-r 0.5s ease;
 }
 .photoDiv_Img{
     z-index: 1;
 }
 .photoDiv_altImg:hover {
-    opacity: 0;
+    --dot-r: 0%;
 }
 
 .socialMedia{
