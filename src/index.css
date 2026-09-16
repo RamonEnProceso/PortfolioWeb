@@ -20,7 +20,8 @@
   --h2-medium:40px;
   --h2-short:30px;
   --h3-medium:20px;
-  --p-medium:50px;
+  --p-long:50px;
+  --p-medium:20px;
   --p-short:16px;
 
   font-family: var(--sans);
