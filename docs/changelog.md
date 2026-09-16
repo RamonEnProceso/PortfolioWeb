@@ -1,6 +1,15 @@
 # Historial de Cambios
 > Todas las modificaciones que se fueron agregando al proyecto.
 
+### v0.1.1 - 2026-09-16
+- Añadir botón para traducir página sin recargarla
+- Añadir Menú superior para navegar rápidamente
+- Mejorar y añadir efectos de componentes
+- Refactorizar parámetros de componentes de la página
+    - Integrar datos del componente padre en una sola estructura
+    - Componentes hijos solo leen las variables dentro
+    - Mejorar legibilidad
+
 ## v0.1.0 - MVP
 > Base del Portfolio
 
