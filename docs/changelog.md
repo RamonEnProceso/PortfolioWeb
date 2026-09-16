@@ -4,11 +4,15 @@
 ### v0.1.1 - 2026-09-16
 - Añadir botón para traducir página sin recargarla
 - Añadir Menú superior para navegar rápidamente
-- Mejorar y añadir efectos de componentes
+- Mejorar interfaz y añadir efectos de componentes
 - Refactorizar parámetros de componentes de la página
     - Integrar datos del componente padre en una sola estructura
     - Componentes hijos solo leen las variables dentro
     - Mejorar legibilidad
+- Añadir descripción a proyectos, con párrafos
+- Agregar ventana para ver más detalles de proyectos
+- Agregar `prewies` de proyectos
+- Arreglar centralizado de página
 
 ## v0.1.0 - MVP
 > Base del Portfolio
