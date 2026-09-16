@@ -5,7 +5,7 @@ import { translateProject } from "./translateProjects"
 import type { PageData } from "../../models/PageData"
 import styles from "./ProjectSection.module.css"
 
-const ProjectsSection = ({data}:{data:PageData}) => {
+const ProjectsSection = ({data}:{data:Pick<PageData, "lan" | "projectsData">}) => {
     return  <section className={styles.projectsSection} id="projects">
         <h2>{translateProject(data.lan,"Projects")}</h2>
         <div className={styles.gridProjects}>

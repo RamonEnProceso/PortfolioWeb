@@ -3,7 +3,7 @@ import type { SocialMedia } from "../../models/SocialMedia"
 import { photoTextTranslator } from "./photoTextTranslator"
 import styles from "./namePhoto.module.css"
 
-const NamePhoto = ({data}:{data:PageData}) => {
+const NamePhoto = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
     const profileData = data.profileData;
     const lan = data.lan;
     const photoText:string = photoTextTranslator(profileData,lan);

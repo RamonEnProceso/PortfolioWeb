@@ -3,7 +3,7 @@ import { CVButton } from "../../shared/CVButton";
 import type { PageData } from "../../models/PageData";
 import styles from "./aboutMe.module.css"
 
-const AboutMeContainer = ({data}:{data:PageData}) => {
+const AboutMeContainer = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
     return <div className={styles.aboutMeContainer}>
         <div>
             <h3>{translateHeader(data.lan, "AboutMe")}</h3>

@@ -3,7 +3,7 @@ import IconDisplay from "../../shared/iconDisplay"
 import type { PageData } from "../../models/PageData"
 import styles from "./skillsContaines.module.css"
 
-const SkillsContainer = ({data}:{data:PageData}) => {
+const SkillsContainer = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
     return <div className={styles.stackContainer}>
                 <h3>{translateHeader(data.lan, "Skills")}</h3>
                 <div>
