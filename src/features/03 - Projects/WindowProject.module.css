@@ -92,5 +92,6 @@
     position: absolute;
     height: 540px;
     bottom: 0;
-    left: -45%;
+    left: 50%;
+    transform: translateX(-50%);
 }
