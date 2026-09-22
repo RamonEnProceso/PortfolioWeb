@@ -15,22 +15,22 @@ const WindowProject = ({data}:{data:Pick<PageData,"project"|"setProject"|"lan">}
                     <div>
                         <h2>{projectSelected.name}</h2>
                         <div className={styles.description}>
-                            {data.project?.description[data.lan].map((e)=>{
-                                return <p className={styles.paragraph}>{e}</p>
+                            {data.project?.description[data.lan].map((e,i)=>{
+                                return <p key={i} className={styles.paragraph}>{e}</p>
                             })}
                         </div>
                     </div>
                     <div>
                         <div className={styles.stack}>
                             <h3>Stack</h3>
-                            {projectSelected.stack.map((e:string)=>{
-                                return <IconDisplay name={e}/>
+                            {projectSelected.stack.map((e:string, i)=>{
+                                return <IconDisplay key={i} name={e}/>
                             })}
                         </div>
                         <div className={styles.libraries}>
                             {projectSelected.libraries&&<h3>{translateProject(data.lan,"Libraries")}</h3>}
-                            {projectSelected.libraries?.map((e:string)=>{
-                                return <IconDisplay name={e}/>
+                            {projectSelected.libraries?.map((e:string,i)=>{
+                                return <IconDisplay key={i} name={e}/>
                             })}
                         </div>
                         <LinksButton linkPage={projectSelected.url} linkRepo={projectSelected.repo}/>
