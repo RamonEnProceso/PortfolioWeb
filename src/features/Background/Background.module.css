@@ -1,0 +1,21 @@
+.container{
+    position: fixed;
+    z-index: -1;
+    width: 100dvw;
+    height: 100dvw; 
+}
+
+.BackgroundLeft, .BackgroundRight{
+    position: absolute;
+    height: 100dvh;
+    aspect-ratio: 323/877;
+    top: 0;
+}
+
+.BackgroundLeft{
+    left: 0;
+}
+
+.BackgroundRight{
+    right: 0;
+}

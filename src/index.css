@@ -72,14 +72,13 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  scroll-behavior: smooth;
 }
 
 body{
-  background-image: url("./assets/background/Background-portfolio-light.webp");
-  background-size: cover;
-  background-attachment:fixed;
-  background-position: right;
   overflow-x: hidden;
+  background: #ffffff;
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 0));
 }
 
 h1,
