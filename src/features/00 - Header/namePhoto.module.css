@@ -99,6 +99,10 @@
 }
 
 @media screen and (max-width: 790px) {
+    .namePhotoContainerLeft h1{
+        max-width: 500px;
+        text-align: center;
+    }
   .namePhotoContainer{
     display: flex;
     flex-direction: column-reverse;
@@ -110,6 +114,7 @@
   .namePhotoContainerLeft{
     align-items: center;
     padding: 30px;
+    gap: 15px;
   }
   .namePhotoContainerLeft h1{
     font-size: var(--h1-short);
