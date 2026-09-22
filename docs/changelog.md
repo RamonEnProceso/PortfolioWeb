@@ -1,6 +1,10 @@
 # Historial de Cambios
 > Todas las modificaciones que se fueron agregando al proyecto.
 
+### v0.1.2 - 2026-09-22
+- Adaptar interfaz a dispositivos móviles
+- Arreglar error de React (añadir keys a `arrays`)
+
 ### v0.1.1 - 2026-09-16
 - Añadir botón para traducir página sin recargarla
 - Añadir Menú superior para navegar rápidamente
