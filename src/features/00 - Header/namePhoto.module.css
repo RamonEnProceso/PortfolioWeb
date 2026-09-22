@@ -97,3 +97,21 @@
 .socialMedia img:hover{
     transform: scale(1.05)
 }
+
+@media screen and (max-width: 790px) {
+  .namePhotoContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: center;
+    align-items: center;
+    gap: 0;
+  }
+  .namePhotoContainerLeft{
+    align-items: center;
+    padding: 30px;
+  }
+  .namePhotoContainerLeft h1{
+    font-size: var(--h1-short);
+    font-weight: 500;
+  }
+}

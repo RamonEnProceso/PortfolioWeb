@@ -14,3 +14,16 @@
     justify-items: center;
     gap: 60px;
 }
+
+@media screen and (max-width: 790px){
+    .aboutMeDiv{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 30px;
+        align-items: center;
+    }
+    .aboutMeContainer{
+        margin-top: 20dvh;
+        margin-bottom: 20dvh;
+    }
+}

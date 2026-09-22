@@ -24,3 +24,15 @@
 .aboutMeContainer p{
     margin: 20px 0;
 }
+
+@media screen and (max-width: 790px){
+    .aboutMeContainer{
+        align-items: center;
+    }
+    .aboutMeContainer h3, .aboutMeContainer h4{
+        text-align: center;
+    }
+    .aboutMeContainer{
+        padding: 30px;
+    }
+}

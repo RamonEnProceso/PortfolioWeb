@@ -19,10 +19,13 @@
   --h1-short:60px;
   --h2-medium:40px;
   --h2-short:30px;
+  --h2-shorter:17px;
   --h3-medium:20px;
+  --h3-short:13px;
   --p-long:50px;
   --p-medium:20px;
   --p-short:16px;
+  --p-shorter:12px;
 
   font-family: var(--sans);
   color-scheme: light dark;
@@ -76,6 +79,7 @@ body{
   background-size: cover;
   background-attachment:fixed;
   background-position: right;
+  overflow-x: hidden;
 }
 
 h1,
@@ -87,6 +91,7 @@ h2 {
 
 .sections{
   width: 100dvw;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -115,3 +115,17 @@
     left: 5px;
     bottom: -10px;
 }
+
+@media screen and (max-width: 790px){
+    .gridProjects{
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px;
+    }
+    .cardProject{
+        width: 340px;
+    }
+    .cardProjectLeft h3{
+        max-width: 130px;
+    }
+}

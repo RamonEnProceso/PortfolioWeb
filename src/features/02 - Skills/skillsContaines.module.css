@@ -40,3 +40,9 @@
 .stackContainer h4{
     margin: 10px 0;
 }
+
+@media screen and (max-width: 790px){
+    .stackContainer{
+        align-items: center;
+    }
+}
