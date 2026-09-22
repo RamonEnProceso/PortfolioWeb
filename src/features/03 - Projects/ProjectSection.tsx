@@ -10,12 +10,12 @@ const ProjectsSection = ({data}:{data:Pick<PageData, "lan" | "projectsData" | "s
         <h2>{translateProject(data.lan,"Projects")}</h2>
         <div className={styles.gridProjects}>
             {data.projectsData.map((e)=>{
-                return <div onClick={()=>{data.setProject(e)}} className={styles.cardProject}>
+                return <div key={e.name} onClick={()=>{data.setProject(e)}} className={styles.cardProject}>
                     <div className={styles.cardProjectLeft}>
                         <h3>{e.name}</h3>
                         <div className={styles.cardProjectStack}>
                             {e.stack.map((e:string)=>{
-                            return <IconDisplay name={e}/>
+                            return <IconDisplay key={e} name={e}/>
                             })}
                         </div>
                     </div>

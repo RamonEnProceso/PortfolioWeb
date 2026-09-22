@@ -10,7 +10,7 @@ const SkillsContainer = ({data}:{data:Pick<PageData, "lan" | "profileData">}) =>
                     <h4>Frontend</h4>
                     <div className={styles.iconsDisplay}>
                         {data.profileData.skills["front"].map((e)=>{
-                            return <IconDisplay name={e}/>
+                            return <IconDisplay key={e} name={e}/>
                         })}
                     </div>
                 </div>
@@ -18,7 +18,7 @@ const SkillsContainer = ({data}:{data:Pick<PageData, "lan" | "profileData">}) =>
                     <h4>Backend</h4>
                     <div className={styles.iconsDisplay}>
                         {data.profileData.skills["back"].map((e)=>{
-                            return <IconDisplay name={e}/>
+                            return <IconDisplay key={e} name={e}/>
                         })}
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const SkillsContainer = ({data}:{data:Pick<PageData, "lan" | "profileData">}) =>
                     <h4>{translateHeader(data.lan,"Tools")}</h4>
                     <div className={styles.iconsDisplay}>
                         {data.profileData.skills["tools"].map((e)=>{
-                            return <IconDisplay name={e}/>
+                            return <IconDisplay key={e} name={e}/>
                         })}
                     </div>
                 </div>

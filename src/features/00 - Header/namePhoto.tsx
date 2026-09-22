@@ -14,13 +14,13 @@ const NamePhoto = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
 
                 <h1>{profileData.firstName}, {profileData.lastName}</h1>
 
-                <ul>{profileData.headline[lan].map((e:string)=>{
-                    return <li>{e}</li>
+                <ul>{profileData.headline[lan].map((e:string, i:number)=>{
+                    return <li key={i}>{e}</li>
                 })}</ul>
 
                 <div className={styles.socialMedia}>
                     {profileData.socialMedia.map((e:SocialMedia)=>{
-                        return <a title={e.alt} href={e.url} target="_blank" rel="noopener noreferrer"><img alt ={`${e.name} logo`} src={e.icon}></img></a>
+                        return <a key={e.url} title={e.alt} href={e.url} target="_blank" rel="noopener noreferrer"><img alt ={`${e.name} logo`} src={e.icon}></img></a>
                     })}
                 </div>
 
