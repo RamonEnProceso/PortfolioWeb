@@ -127,6 +127,8 @@
     }
     .windowLeft{
         height: auto;
+        width: 100%;
+        max-width: 100%;
     }
     .windowLeft h2{
         font-size: var(--h2-shorter);
@@ -136,6 +138,7 @@
         font-size: var(--p-shorter);
         max-height: 100px;
         overflow: scroll;
+        max-width: 100%;
     }
     .paragraph{
         margin-bottom: 10px;
