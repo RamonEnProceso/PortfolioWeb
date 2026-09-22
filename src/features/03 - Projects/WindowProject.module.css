@@ -105,6 +105,9 @@
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-end;
+        height: auto;
+        max-height: 80dvh;
+        overflow-y: auto;
         padding-top: 40px;
     }
     .windowRight{
@@ -123,7 +126,7 @@
         transform: translateY(-50%) translateX(-50%);
     }
     .windowLeft{
-        height: 100%;
+        height: auto;
     }
     .windowLeft h2{
         font-size: var(--h2-shorter);

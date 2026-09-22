@@ -1,5 +1,5 @@
 .section{
-    height: 100vh;
+    min-height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,6 +105,7 @@
     justify-items: center;
     align-items: center;
     gap: 0;
+    padding-top: 100px;
   }
   .namePhotoContainerLeft{
     align-items: center;
