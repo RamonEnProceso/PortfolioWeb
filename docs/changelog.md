@@ -4,6 +4,11 @@
 ### v0.1.2 - 2026-09-22
 - Adaptar interfaz a dispositivos móviles
 - Arreglar error de React (añadir keys a `arrays`)
+- Añadir márgenes para el fondo
+- Eliminar el fondo placeholder
+- Cambiar formato de mostrar mails para evitar `Email Grabbers`
+- Añadir sección de contacto
+- Añadir boton de copiar mail con imágen interactiva
 
 ### v0.1.1 - 2026-09-16
 - Añadir botón para traducir página sin recargarla
