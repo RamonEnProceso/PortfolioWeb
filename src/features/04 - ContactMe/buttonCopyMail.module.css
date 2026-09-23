@@ -67,10 +67,13 @@
     color: var(--bg);
     border: none;
     cursor: pointer;
+    transition: transform 0.1s;
 }
 .button:hover{
     background-color: var(--bg);
+    box-shadow: inset 0px 0px 0px 3px var(--text-h);
     color: var(--text-h);
+    transform: translateX(-50%) scale(1.1);
 }
 
 .button:active .envelope{

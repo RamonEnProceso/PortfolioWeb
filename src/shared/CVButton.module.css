@@ -7,12 +7,14 @@
     text-decoration: none;
     transition: transform 0.15s;
 }
-
-.button:hover {
-    transform: scale(1.05) translateX(2.5%);
-}
-
 .button:link, .button:visited, .button:hover, .button:active{
     color: var(--bg)
+}
+
+.button:hover {
+    background-color: var(--bg);
+    color: var(--text-h);
+    box-shadow: inset 0px 0px 0px 3px var(--text-h);
+    transform: scale(1.05) translateX(2.5%);
 }
 
