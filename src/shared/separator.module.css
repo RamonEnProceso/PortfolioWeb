@@ -10,5 +10,5 @@
 .separator{
     width: 100dvw;
     height: 50px;
-    background-color: black;
+    background-color: var(--text-h);
 }
