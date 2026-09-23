@@ -12,7 +12,7 @@ const NamePhoto = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
         <div className={styles.namePhotoContainer}>
             <div className={styles.namePhotoContainerLeft}>
 
-                <h1>{profileData.firstName}, {profileData.lastName}</h1>
+                <h1>{profileData.firstName} {profileData.lastName}</h1>
 
                 <ul>{profileData.headline[lan].map((e:string, i:number)=>{
                     return <li key={i}>{e}</li>
