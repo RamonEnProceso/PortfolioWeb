@@ -1,6 +1,11 @@
 # Historial de Cambios
 > Todas las modificaciones que se fueron agregando al proyecto.
 
+### v0.1.3 - 2026-09-23
+- Agregar separador entre secciones
+- Corrección de espaciados y márgenes
+- Agregar boton de vez más en el apartado de proyectos
+
 ### v0.1.2 - 2026-09-22
 - Adaptar interfaz a dispositivos móviles
 - Arreglar error de React (añadir keys a `arrays`)
