@@ -1,0 +1,14 @@
+.separatorBorder {
+    width: 100dvw;
+    height: 70px;
+    padding: 5px 0;
+    border: 5px solid var(--text-h);
+    border-left: none;
+    border-right: none;
+}
+
+.separator{
+    width: 100dvw;
+    height: 50px;
+    background-color: black;
+}
