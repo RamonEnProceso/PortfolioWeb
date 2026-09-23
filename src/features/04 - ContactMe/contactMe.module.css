@@ -1,0 +1,8 @@
+.section {
+    height: 80vh;
+    padding-top: 50px;
+}
+
+.section h2{
+    font-size: var(--h2-medium);
+}

@@ -10,6 +10,7 @@ import type { PageData } from "../models/PageData";
 import Menu from "./Menu/portfolioNav";
 import WindowProject from "./03 - Projects/WindowProject";
 import Background from "./Background/Background";
+import ContactMe from "./04 - ContactMe/contactMe";
 
 const PortfolioPage = () =>{
     const [project, setProject] = useState<Project | null>(null);
@@ -31,6 +32,7 @@ const PortfolioPage = () =>{
             <NamePhoto data={pageData}/>
             <ProfileHeader data={pageData}/>
             <ProjectsSection data={pageData}/>
+            <ContactMe data={pageData}></ContactMe>
         </div>
         <Background/>
     </>

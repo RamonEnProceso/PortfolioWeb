@@ -1,5 +1,6 @@
 import type { Languages } from "./Languages"
 import type { SocialMedia } from "./SocialMedia"
+import type { Mail } from "./Mail"
 
 interface Skills {
     "front": string[],
@@ -17,7 +18,7 @@ export interface Profile {
     "location": string,
     "bio": Record<Languages, string[]>,
     "skills": Skills,
-    "email":string,
+    "email":Mail,
     "socialMedia": SocialMedia[],
     "languages":Record<Languages,string[]>,
     "CV":Record<Languages, string>
