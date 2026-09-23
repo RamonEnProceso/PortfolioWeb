@@ -3,6 +3,7 @@
     font-size: var(--h2-medium);
     font-weight: bold;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .projectsSection{
@@ -21,6 +22,24 @@
     justify-items: center;
     gap: 20px;
     padding: 20px;
+}
+
+.showMore{
+    background-color: var(--text-h);
+    color: var(--bg);
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    font-size: var(--p-short);
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.showMore:hover{
+    background-color: var(--bg);
+    box-shadow: inset 0px 0px 0px 3px var(--text-h);
+    color: var(--text-h);
+    transform: scale(1.05);
 }
 
 .cardProject{

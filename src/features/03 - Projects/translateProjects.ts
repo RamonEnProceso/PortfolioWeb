@@ -1,6 +1,6 @@
 import type { Languages } from "../../models/Languages";
 
-type ProjectHeader = "Projects" | "Libraries" | "noPreview" | "loading";
+type ProjectHeader = "Projects" | "Libraries" | "noPreview" | "loading" | "showMore";
 
 export const translateProject = (lan : Languages, header:ProjectHeader) => {
     const headerObj : Record<ProjectHeader,Record<Languages, string>> = {
@@ -15,7 +15,10 @@ export const translateProject = (lan : Languages, header:ProjectHeader) => {
             "ES":"No hay video de demostración"},
         "loading":{
             "EN":"Loading",
-            "ES":"Cargando"}
+            "ES":"Cargando"},
+        "showMore":{
+            "EN":"Show more",
+            "ES":"Mostrar más"}
     }
     return headerObj[header][lan];
 }
