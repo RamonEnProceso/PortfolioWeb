@@ -1,8 +1,19 @@
 .section {
-    height: 80vh;
-    padding-top: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    z-index:3;
 }
 
 .section h2{
     font-size: var(--h2-medium);
+    font-weight: 600;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
 }
