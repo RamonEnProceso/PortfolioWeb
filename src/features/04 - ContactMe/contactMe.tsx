@@ -17,7 +17,7 @@ const ContactMe = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
                 {data.profileData.email.domain}
             </div>
         </div>
-        <ButtonMailButton mail={data.profileData.email}/>
+        <ButtonMailButton mail={data.profileData.email} lan={lan}/>
     </section>
     </>
 }
