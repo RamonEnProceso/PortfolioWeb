@@ -11,6 +11,7 @@ import Menu from "./Menu/portfolioNav";
 import WindowProject from "./03 - Projects/WindowProject";
 import Background from "./Background/Background";
 import ContactMe from "./04 - ContactMe/contactMe";
+import Separator from "../shared/separator";
 
 const PortfolioPage = () =>{
     const [project, setProject] = useState<Project | null>(null);
@@ -30,8 +31,11 @@ const PortfolioPage = () =>{
         <WindowProject data={pageData} />
         <div className="sections">
             <NamePhoto data={pageData}/>
+            <Separator/>
             <ProfileHeader data={pageData}/>
+            <Separator/>
             <ProjectsSection data={pageData}/>
+            <Separator/>
             <ContactMe data={pageData}></ContactMe>
         </div>
         <Background/>
