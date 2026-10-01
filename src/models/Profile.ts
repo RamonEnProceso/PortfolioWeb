@@ -21,5 +21,6 @@ export interface Profile {
     "email":Mail,
     "socialMedia": SocialMedia[],
     "languages":Record<Languages,string[]>,
-    "CV":Record<Languages, string>
+    "CV":Record<Languages, string>,
+    "certificates":string[]
 }
