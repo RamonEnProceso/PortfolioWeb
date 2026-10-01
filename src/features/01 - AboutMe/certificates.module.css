@@ -7,7 +7,7 @@
 
 .section{
     width: 100%;
-    padding: 100px 0;
+    padding: 30px 0;
 }
 
 .certificatesContainer{
@@ -51,4 +51,11 @@
     scroll-snap-align: center;
     user-select: none;
     -webkit-user-drag: none;
+    filter: saturate(0);
+    transition: transform 0.2s;
+}
+
+.certificateImg:hover{
+    filter: saturate(1);
+    transform: scale(1.02);
 }

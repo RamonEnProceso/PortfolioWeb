@@ -11,7 +11,6 @@ import WindowProject from "./03 - Projects/WindowProject";
 import Background from "./Background/Background";
 import ContactMe from "./04 - ContactMe/contactMe";
 import Separator from "../shared/separator";
-import Certificates from "./01 - AboutMe/certificicates";
 
 const PortfolioPage = () =>{
     const [project, setProject] = useState<Project | null>(null);
@@ -30,8 +29,6 @@ const PortfolioPage = () =>{
             <NamePhoto data={pageData}/>
             <Separator/>
             <ProfileHeader data={pageData}/>
-            <Separator/>
-            <Certificates/>
             <Separator/>
             <ProjectsSection data={pageData}/>
             <Separator/>

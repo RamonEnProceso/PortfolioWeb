@@ -1,6 +1,7 @@
 import SkillsContainer from "../02 - Skills/skillsContainer";
 import AboutMeContainer from "./aboutMe";
 import type { PageData } from "../../models/PageData";
+import Certificates from "./certificicates";
 import styles from "./profileBioSkills.module.css"
 
 const ProfileBioSkills = ({data}:{data:PageData}) => {
@@ -9,6 +10,9 @@ const ProfileBioSkills = ({data}:{data:PageData}) => {
     <div className={styles.aboutMeDiv}>
         <AboutMeContainer data={data}/>
         <SkillsContainer data={data}/>
+    </div>
+    <div className={styles.certificatesContainer}>
+        <Certificates/>
     </div>
     </section>
 }

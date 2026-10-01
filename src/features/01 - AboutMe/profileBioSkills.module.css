@@ -1,6 +1,7 @@
 .aboutMeContainer{
     width: 100%;
     min-height: 100dvh;
+    padding: 80px 0 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,9 +17,10 @@
     gap: 60px;
 }
 
-.certificates{
-    padding: 80px 0;
+.certificatesContainer{
+    width: 100%;
 }
+
 
 @media screen and (max-width: 790px){
     .aboutMeDiv{
@@ -29,7 +31,7 @@
     }
     .aboutMeContainer{
         min-height: 0;
-        margin-top: 20dvh;
-        margin-bottom: 20dvh;
+        margin-top: 18dvh;
+        margin-bottom: 18dvh;
     }
 }
