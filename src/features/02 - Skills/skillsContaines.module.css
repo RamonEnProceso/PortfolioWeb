@@ -5,7 +5,7 @@
     text-align: left;
     width: 250px;
     height: 100%;
-    justify-content: center;
+    justify-content: start;
 }
 
 .stackContainer h3{
@@ -24,6 +24,8 @@
 }
 
 .iconsDisplay img{
+    aspect-ratio: 1;
+    height: 50px;
     filter: saturate(0) contrast(1.25);
     transition: filter 0.25s, transform 0.2s;
 }
@@ -38,6 +40,7 @@
 }
 
 .stackContainer h4{
+    font-size: var(--h2-shorter);
     margin: 10px 0;
 }
 
