@@ -1,10 +1,13 @@
 import PortfolioPage from './features/PortfolioPage'
+import { LanProvider } from './features/shared/LanContext'
 
 function App() {
 
   return (
     <>
-      <PortfolioPage/>
+      <LanProvider>
+        <PortfolioPage/>
+      </LanProvider>
     </>
   )
 }

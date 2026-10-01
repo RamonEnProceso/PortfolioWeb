@@ -1,11 +1,12 @@
-import { translateHeader } from "../01 - AboutMe/translateHeader"
+import { useTranslateHeader } from "../01 - AboutMe/translateHeader"
 import IconDisplay from "../../shared/iconDisplay"
 import type { PageData } from "../../models/PageData"
 import styles from "./skillsContaines.module.css"
 
-const SkillsContainer = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
+const SkillsContainer = ({data}:{data:Pick<PageData, "profileData">}) => {
+    const translateHeader = useTranslateHeader();
     return <div className={styles.stackContainer}>
-                <h3>{translateHeader(data.lan, "Skills")}</h3>
+                <h3>{translateHeader("Skills")}</h3>
                 <div>
                     <h4>Frontend</h4>
                     <div className={styles.iconsDisplay}>
@@ -23,7 +24,7 @@ const SkillsContainer = ({data}:{data:Pick<PageData, "lan" | "profileData">}) =>
                     </div>
                 </div>
                 <div>
-                    <h4>{translateHeader(data.lan,"Tools")}</h4>
+                    <h4>{translateHeader("Tools")}</h4>
                     <div className={styles.iconsDisplay}>
                         {data.profileData.skills["tools"].map((e)=>{
                             return <IconDisplay key={e} name={e}/>

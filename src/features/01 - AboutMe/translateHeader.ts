@@ -1,8 +1,10 @@
 import type { Languages } from "../../models/Languages";
+import { useLan } from "../shared/LanContext";
 
 type Header = "AboutMe"| "Languages" | "Skills" | "Tools";
 
-export const translateHeader = (lan : Languages, header:Header) => {
+export const useTranslateHeader = () => {
+    const { lan } = useLan();
     const headerObj : Record <Header,Record<Languages,string>>= {
         "AboutMe":{
             "EN":"About Me",
@@ -18,6 +20,5 @@ export const translateHeader = (lan : Languages, header:Header) => {
             "ES":"Herramientas"
         }
     }
-    return headerObj[header][lan];
+    return (header:Header) => headerObj[header][lan];
 }
-    

@@ -1,15 +1,15 @@
 import { useState } from "react"
 import IconDisplay from "../../shared/iconDisplay"
 import LinksButton from "./linksButton"
-/*import type { SetStateAction, Dispatch } from "react"*/
-import { translateProject } from "./translateProjects"
+import { useTranslateProject } from "./translateProjects"
 import type { PageData } from "../../models/PageData"
 import styles from "./ProjectSection.module.css"
 
-const ProjectsSection = ({data}:{data:Pick<PageData, "lan" | "projectsData" | "setProject">}) => {
+const ProjectsSection = ({data}:{data:Pick<PageData, "projectsData" | "setProject">}) => {
     const [visible, setVisible] = useState(4)
+    const translateProject = useTranslateProject();
     return  <section className={styles.projectsSection} id="projects">
-        <h2>{translateProject(data.lan,"Projects")}</h2>
+        <h2>{translateProject("Projects")}</h2>
         <div className={styles.gridProjects}>
             {data.projectsData.slice(0, visible).map((e)=>{
                 return <div key={e.name} onClick={()=>{data.setProject(e)}} className={styles.cardProject}>
@@ -34,7 +34,7 @@ const ProjectsSection = ({data}:{data:Pick<PageData, "lan" | "projectsData" | "s
         </div>
         {visible < data.projectsData.length &&
             <button className={styles.showMore} onClick={()=>setVisible(v => v + 4)}>
-                {translateProject(data.lan, "showMore")}
+                {translateProject("showMore")}
             </button>
         }
     </section>

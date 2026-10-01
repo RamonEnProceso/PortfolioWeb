@@ -1,8 +1,10 @@
 import type { Languages } from "../../models/Languages";
+import { useLan } from "../shared/LanContext";
 
 type ProjectHeader = "Projects" | "Libraries" | "noPreview" | "loading" | "showMore";
 
-export const translateProject = (lan : Languages, header:ProjectHeader) => {
+export const useTranslateProject = () => {
+    const { lan } = useLan();
     const headerObj : Record<ProjectHeader,Record<Languages, string>> = {
         "Projects":{
             "EN":"Projects",
@@ -20,5 +22,5 @@ export const translateProject = (lan : Languages, header:ProjectHeader) => {
             "EN":"Show more",
             "ES":"Mostrar más"}
     }
-    return headerObj[header][lan];
+    return (header:ProjectHeader) => headerObj[header][lan];
 }

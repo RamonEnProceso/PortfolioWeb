@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { createContext, useState } from "react";
+import { createContext, useState, useContext } from "react";
 import type { Languages } from "../../models/Languages";
 import type { SetStateAction, Dispatch } from "react";
 
@@ -17,4 +17,6 @@ const LanProvider = ({children}:{children:ReactNode}) => {
     return <LanContext.Provider value={value}>{children}</LanContext.Provider>
 }
 
-export {LanContext, LanProvider}
+const useLan = () => useContext(LanContext);
+
+export {LanContext, LanProvider, useLan}

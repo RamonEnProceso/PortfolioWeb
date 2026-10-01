@@ -1,11 +1,14 @@
 import type { PageData } from "../../models/PageData";
 import IconDisplay from "../../shared/iconDisplay";
 import LinksButton from "./linksButton";
-import { translateProject } from "./translateProjects";
+import { useTranslateProject } from "./translateProjects";
+import { useLan } from "../shared/LanContext";
 import styles from "./WindowProject.module.css"
 
-const WindowProject = ({data}:{data:Pick<PageData,"project"|"setProject"|"lan">}) => {
+const WindowProject = ({data}:{data:Pick<PageData,"project"|"setProject">}) => {
     const projectSelected = data.project;
+    const translateProject = useTranslateProject();
+    const { lan } = useLan();
 
     return <div style={{display: projectSelected?"flex":"none"}} className={styles.container}>
         {projectSelected && (
@@ -15,7 +18,7 @@ const WindowProject = ({data}:{data:Pick<PageData,"project"|"setProject"|"lan">}
                     <div>
                         <h2>{projectSelected.name}</h2>
                         <div className={styles.description}>
-                            {data.project?.description[data.lan].map((e,i)=>{
+                            {data.project?.description[lan].map((e,i)=>{
                                 return <p key={i} className={styles.paragraph}>{e}</p>
                             })}
                         </div>
@@ -28,7 +31,7 @@ const WindowProject = ({data}:{data:Pick<PageData,"project"|"setProject"|"lan">}
                             })}
                         </div>
                         <div className={styles.libraries}>
-                            {projectSelected.libraries&&<h3>{translateProject(data.lan,"Libraries")}</h3>}
+                            {projectSelected.libraries&&<h3>{translateProject("Libraries")}</h3>}
                             {projectSelected.libraries?.map((e:string,i)=>{
                                 return <IconDisplay key={i} name={e}/>
                             })}
@@ -41,7 +44,7 @@ const WindowProject = ({data}:{data:Pick<PageData,"project"|"setProject"|"lan">}
                         autoPlay
                         loop
                         muted
-                        playsInline>--{translateProject(data.lan,"loading")}--</video>:<p>--{translateProject(data.lan,"noPreview")}--</p>}
+                        playsInline>--{translateProject("loading")}--</video>:<p>--{translateProject("noPreview")}--</p>}
                 </div>
             </div>
         )

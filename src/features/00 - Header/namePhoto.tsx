@@ -1,12 +1,14 @@
 import type { PageData } from "../../models/PageData"
 import type { SocialMedia } from "../../models/SocialMedia"
-import { photoTextTranslator } from "./photoTextTranslator"
+import { usePhotoTextTranslator } from "./photoTextTranslator"
+import { useLan } from "../shared/LanContext";
 import styles from "./namePhoto.module.css"
 
-const NamePhoto = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
+const NamePhoto = ({data}:{data:Pick<PageData, "profileData">}) => {
     const profileData = data.profileData;
-    const lan = data.lan;
-    const photoText:string = photoTextTranslator(profileData,lan);
+    const { lan } = useLan();
+    const photoTextTranslator = usePhotoTextTranslator();
+    const photoText:string = photoTextTranslator(profileData);
 
     return <section className={styles.section} id="home">
         <div className={styles.namePhotoContainer}>
@@ -29,11 +31,11 @@ const NamePhoto = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
                 <div className={styles.photoDiv}>
 
                     <img className={styles.photoDiv_altImg}
-                    alt={photoText} title={photoText} 
+                    alt={photoText} title={photoText}
                     src={profileData["alt-photo"]}></img>
 
-                    <img className={styles.photoDiv_Img} 
-                    alt={photoText} title={photoText} 
+                    <img className={styles.photoDiv_Img}
+                    alt={photoText} title={photoText}
                     src={profileData.photo}></img>
 
                 </div>

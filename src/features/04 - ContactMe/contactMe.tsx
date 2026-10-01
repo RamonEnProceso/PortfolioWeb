@@ -1,9 +1,10 @@
 import type { PageData } from "../../models/PageData";
 import ButtonMailButton from "./buttonCopyMail";
+import { useLan } from "../shared/LanContext";
 import styles from "./contactMe.module.css"
 
-const ContactMe = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
-    const lan = data.lan;
+const ContactMe = ({data}:{data:Pick<PageData, "profileData">}) => {
+    const { lan } = useLan();
 
     return <>
     <section className={styles.section} id="contact">
@@ -17,7 +18,7 @@ const ContactMe = ({data}:{data:Pick<PageData, "lan" | "profileData">}) => {
                 {data.profileData.email.domain}
             </div>
         </div>
-        <ButtonMailButton mail={data.profileData.email} lan={lan}/>
+        <ButtonMailButton mail={data.profileData.email}/>
     </section>
     </>
 }

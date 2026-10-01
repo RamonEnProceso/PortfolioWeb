@@ -1,20 +1,22 @@
 import type { Profile } from "../models/Profile";
-import type { Languages } from "../models/Languages";
+import { useLan } from "../features/shared/LanContext";
 import styles from "./CVButton.module.css"
 
-const transaleButton = (lan:Languages) : string => {
-    switch (lan){
-        case "EN":
-            return "Download CV"
-        case "ES":
-            return "Descargar CV"
-    }
-}
+export const CVButton = ({profileData}:{profileData:Profile}) => {
+    const { lan } = useLan();
 
-export const CVButton = ({profileData, lan}:{profileData:Profile, lan:Languages}) => {
+    const translateButton = () : string => {
+        switch (lan){
+            case "EN":
+                return "Download CV"
+            case "ES":
+                return "Descargar CV"
+        }
+    }
+
     return <>
         <a href={profileData.CV[lan]} className={styles.button}>
-            {transaleButton(lan)}
+            {translateButton()}
         </a>
     </>
 }

@@ -1,7 +1,7 @@
-import type{ Languages } from "../../models/Languages"
-import type { Dispatch, SetStateAction } from "react"
+import { useLan } from "../shared/LanContext"
 
-const TranslateButton = ({lan,setLan}:{lan:Languages,setLan:Dispatch<SetStateAction<Languages>>}) => {
+const TranslateButton = () => {
+    const { lan, setLan } = useLan();
     return <button style={{cursor:"pointer", color:"#ffff"}} onClick={()=>setLan((e)=>{return e=="ES"?"EN":"ES"})}>{lan}</button>
 }
 
