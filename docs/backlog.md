@@ -11,7 +11,10 @@
     - [x] Crear cards de proyectos
     - [x] Crear display de proyectos
 - [x] Implementar selector de idioma
-- [ ] Crear sección de contacto
+- [x] Agregar certificados
+- [ ] Agregar experiencia laboral
+- [x] Crear sección de contacto
+    (Copiar mail unicamente)
 
 ## Visual
 - [ ] Añadir CSS Module a la página
