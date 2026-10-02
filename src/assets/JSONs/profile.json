@@ -45,6 +45,17 @@
         "EN":"https://github.com/RamonEnProceso/PortfolioWeb/raw/refs/heads/main/public/CVs/CV_Ramon_Ramirez_P2026_EN.pdf?download="
     },
     "certificates":[
-        "certificates/certificate_html.webp","certificates/certificate_js.webp"
+        {
+            "organization":"FreeCodeCamp",
+            "title":"JavaScript Algorithms & Data Structures",
+            "year": 2025,
+            "image":"certificates/certificate_js.webp"
+        },
+        {
+            "organization":"FreeCodeCamp",
+            "title":"Responsive Web Design",
+            "year": 2023,
+            "image":"certificates/certificate_html.webp"
+        }
     ]
 }
