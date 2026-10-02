@@ -6,6 +6,8 @@
 - Agregar ventana para ver más detalles de Certificados
 - Reemplazar intercambio de datos entre componentes
     - Utilización de hooks de `context` para idiomas
+- Re implementar variables CSS
+    - Modificar tamaño responsive desde el `index`
 
 ### v0.1.3 - 2026-09-23
 - Agregar separador entre secciones
