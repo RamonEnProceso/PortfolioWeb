@@ -1,6 +1,11 @@
 # Historial de Cambios
 > Todas las modificaciones que se fueron agregando al proyecto.
 
+### v0.1.4 - 2026-09-30
+- Agregar Certificados académicos dentro de `Sobre Mi`
+- Reemplazar intercambio de datos entre componentes
+    - Utilización de hooks de `context` para idiomas
+
 ### v0.1.3 - 2026-09-23
 - Agregar separador entre secciones
 - Corrección de espaciados y márgenes
