@@ -3,6 +3,7 @@
 
 ### v0.1.4 - 2026-09-30
 - Agregar Certificados académicos dentro de `Sobre Mi`
+- Agregar ventana para ver más detalles de Certificados
 - Reemplazar intercambio de datos entre componentes
     - Utilización de hooks de `context` para idiomas
 
