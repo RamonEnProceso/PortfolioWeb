@@ -1,6 +1,7 @@
 import type { Languages } from "./Languages"
 import type { SocialMedia } from "./SocialMedia"
 import type { Mail } from "./Mail"
+import type { Certificates } from "./Certificates"
 
 interface Skills {
     "front": string[],
@@ -22,5 +23,5 @@ export interface Profile {
     "socialMedia": SocialMedia[],
     "languages":Record<Languages,string[]>,
     "CV":Record<Languages, string>,
-    "certificates":string[]
+    "certificates":Certificates[]
 }
