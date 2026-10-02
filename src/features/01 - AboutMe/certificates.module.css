@@ -1,6 +1,6 @@
 .section h3{
     color: var(--text-h);
-    font-size: var(--h2-short);
+    font-size: var(--h2);
     margin: 0;
     margin-bottom: 20px;
 }
@@ -72,7 +72,7 @@
 .certificateOrg{
     font-weight: 700;
     color: var(--text-h);
-    font-size: var(--h3-short);
+    font-size: var(--p-small);
 }
 
 .certificateImg{

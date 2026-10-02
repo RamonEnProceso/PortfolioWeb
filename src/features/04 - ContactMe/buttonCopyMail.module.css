@@ -61,7 +61,7 @@
     left: 50%;
     bottom: 30%;
     transform: translateX(-50%);
-    font-size: var(--p-medium);
+    font-size: var(--p);
     padding: 10px;
     background-color: var(--text-h);
     color: var(--bg);

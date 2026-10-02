@@ -10,7 +10,7 @@
 
 .stackContainer h3{
     color: var(--text-h);
-    font-size: var(--h2-short);
+    font-size: var(--h2);
     margin: 0 0 15px 0;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .stackContainer h4{
-    font-size: var(--h2-shorter);
+    font-size: var(--h3);
     margin: 10px 0;
 }
 

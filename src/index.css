@@ -14,18 +14,11 @@
   --sans: "Azeret Mono", monospace;
   --heading: "Azeret Mono", monospace;
 
-  --h1-longer:110px;
-  --h1-medium:90px;
-  --h1-short:60px;
-  --h2-medium:40px;
-  --h2-short:30px;
-  --h2-shorter:17px;
-  --h3-medium:20px;
-  --h3-short:13px;
-  --p-long:50px;
-  --p-medium:20px;
-  --p-short:16px;
-  --p-shorter:12px;
+  --h1: 90px;       /* nombre (hero) */
+  --h2: 30px;       /* títulos de sección */
+  --h3: 20px;       /* subtítulos */
+  --p: 16px;        /* texto base */
+  --p-small: 13px;  /* texto pequeño / metadatos */
 
   font-family: var(--sans);
   color-scheme: light dark;
@@ -35,9 +28,15 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
-  @media (max-width: 1024px) {
-    font-size: 16px;
+@media (max-width: 790px) {
+  :root {
+    --h1: 60px;
+    --h2: 30px;
+    --h3: 18px;
+    --p: 14px;
+    --p-small: 12px;
   }
 }
 
@@ -77,6 +76,7 @@
 
 body{
   overflow-x: hidden;
+  font-size: var(--p);
   background: #ffffff;
   background: linear-gradient(90deg,rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 0));
 }

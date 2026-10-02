@@ -37,11 +37,11 @@
 }
 
 .title{
-    font-size: var(--h2-medium);
+    font-size: var(--h2);
 }
 
 .orgAndYear{
-    font-size: var(--h3-short);
+    font-size: var(--p-small);
     opacity: 0.7;
 }
 
@@ -51,5 +51,5 @@
     border: none;
     cursor: pointer;
     align-self: flex-end;
-    font-size: bold;
+    font-weight: bold;
 }

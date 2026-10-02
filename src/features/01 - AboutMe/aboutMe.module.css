@@ -12,13 +12,13 @@
 
 .aboutMeContainer h3 {
     color: var(--text-h);
-    font-size: var(--h2-short);
+    font-size: var(--h2);
     margin: 0;
 }
 
 .aboutMeContainer h4 {
     color: var(--text-h);
-    font-size: var(--h3-medium);
+    font-size: var(--h3);
     margin: 0;
 }
 

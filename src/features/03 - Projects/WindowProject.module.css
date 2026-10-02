@@ -35,7 +35,7 @@
     margin-top: 20px;
     margin-bottom: 15px;
     font-weight: bold;
-    font-size: var(--h2-short);
+    font-size: var(--h2);
 }
 
 .window h2, .window h3, .description{
@@ -44,6 +44,7 @@
 }
 
 .window h3{
+    font-size: var(--h3);
     margin: 20px 0 15px 0;
 }
 
@@ -61,7 +62,7 @@
 .description{
     text-align: start;
     max-width: 250px;
-    font-size: var(--p-short);
+    font-size: var(--p);
     opacity: 0.8;
 }
 .paragraph{
@@ -132,11 +133,9 @@
         max-width: 100%;
     }
     .windowLeft h2{
-        font-size: var(--h2-shorter);
         text-align: center;
     }
     .description{
-        font-size: var(--p-shorter);
         max-height: 100px;
         overflow: scroll;
         max-width: 100%;
@@ -152,7 +151,6 @@
     }
     .window h3{
         font-weight: 300;
-        font-size: var(--h3-short);
         margin: 10px 0 7px 0;
     }
     
