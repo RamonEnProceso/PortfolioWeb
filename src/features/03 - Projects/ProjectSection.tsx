@@ -33,7 +33,7 @@ const ProjectsSection = ({data}:{data:Pick<PageData, "projectsData" | "setProjec
             })}
         </div>
         {visible < data.projectsData.length &&
-            <button className={styles.showMore} onClick={()=>setVisible(v => v + 4)}>
+            <button className={styles.showMore} onClick={()=>setVisible(v => v + 6)}>
                 {translateProject("showMore")}
             </button>
         }
