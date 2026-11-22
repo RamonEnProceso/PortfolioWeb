@@ -58,5 +58,9 @@
     "Debian":{
         "name": "Debian | Linux",
         "icon": "icons/debian.webp"
+    },
+    "WebAssembly":{
+        "name": "Web Assembly",
+        "icon": "icons/webAssembly.webp"
     }
 }
