@@ -38,8 +38,8 @@
     },
     {
         "name":"Visualizador de Bondis",
-        "url": "https://ramonenproceso.github.io/TP-Integrador-Algoritmos-2026/",
-        "repo":"https://github.com/RamonEnProceso/TP-Integrador-Algoritmos-2026/tree/main",
+        "url": "https://visualizador-de-bondis.web.app/",
+        "repo":"https://github.com/RamonEnProceso/Visualizador-de-Bondis",
         "thumbnail": ["thumbnails/thumbnail-visualizadorBondis-0.webp","thumbnails/thumbnail-visualizadorBondis-1.webp"],
         "description": {
             "ES":["Página que permite convertir un listado de colectivos en una imágen.","Enfocado para usar en redes."],
@@ -50,8 +50,8 @@
     },
     {
         "name":"Gestor de Parque de Diversiones",
-        "url": "https://ramonenproceso.github.io/CurrentWeek/",
-        "repo":"https://github.com/RamonEnProceso/CurrentWeek",
+        "url": "https://ramonenproceso.github.io/TP-Integrador-Algoritmos-2026/",
+        "repo":"https://github.com/RamonEnProceso/TP-Integrador-Algoritmos-2026/tree/main",
         "thumbnail": ["thumbnails/thumbnail-TPAlgoritmos-0.webp"],
         "description": {
             "ES":["Aplicación de consola hecha para el TP Integrador de Algoritmos y Estructura de datos en UTN.", "Mi profesor destacó la modularidad del código, arquitectura de carpetas y sobre todo la interfaz."],
