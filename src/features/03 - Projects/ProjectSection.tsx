@@ -6,7 +6,7 @@ import type { PageData } from "../../models/PageData"
 import styles from "./ProjectSection.module.css"
 
 const ProjectsSection = ({data}:{data:Pick<PageData, "projectsData" | "setProject">}) => {
-    const [visible, setVisible] = useState(4)
+    const [visible, setVisible] = useState(6)
     const translateProject = useTranslateProject();
     return  <section className={styles.projectsSection} id="projects">
         <h2>{translateProject("Projects")}</h2>
@@ -33,7 +33,7 @@ const ProjectsSection = ({data}:{data:Pick<PageData, "projectsData" | "setProjec
             })}
         </div>
         {visible < data.projectsData.length &&
-            <button className={styles.showMore} onClick={()=>setVisible(v => v + 6)}>
+            <button className={styles.showMore} onClick={()=>setVisible(v => v + 4)}>
                 {translateProject("showMore")}
             </button>
         }
