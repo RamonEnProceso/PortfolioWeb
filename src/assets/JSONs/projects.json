@@ -54,8 +54,8 @@
         "repo":"https://github.com/RamonEnProceso/CurrentWeek",
         "thumbnail": ["thumbnails/thumbnail-TPAlgoritmos-0.webp"],
         "description": {
-            "ES":["Aplicación de consola hecha para el TP Integrador de Algoritmos y Estructura de datos en UTN. Mi profesor destacó la modularidad del código, arquitectura de carpetas y sobre todo la interfaz."],
-            "EN":["Console application developed as part of the final project for the Algorithms and Data Structures course at UTN. My professor praised the code modularity, folder structure, and especially the user interface."]
+            "ES":["Aplicación de consola hecha para el TP Integrador de Algoritmos y Estructura de datos en UTN.", "Mi profesor destacó la modularidad del código, arquitectura de carpetas y sobre todo la interfaz."],
+            "EN":["Console application developed as part of the final project for the Algorithms and Data Structures course at UTN.", "My professor praised the code modularity, folder structure, and especially the user interface."]
         },
         "stack": ["C++"],
         "video":"video/screen-TPAlgoritmos.webm"
