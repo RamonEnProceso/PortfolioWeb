@@ -38,8 +38,8 @@
     },
     {
         "name":"Visualizador de Bondis",
-        "url": "https://visualizador-de-bondis.web.app/",
-        "repo":"https://github.com/RamonEnProceso/Visualizador-de-Bondis",
+        "url": "https://ramonenproceso.github.io/TP-Integrador-Algoritmos-2026/",
+        "repo":"https://github.com/RamonEnProceso/TP-Integrador-Algoritmos-2026/tree/main",
         "thumbnail": ["thumbnails/thumbnail-visualizadorBondis-0.webp","thumbnails/thumbnail-visualizadorBondis-1.webp"],
         "description": {
             "ES":["Página que permite convertir un listado de colectivos en una imágen.","Enfocado para usar en redes."],
@@ -47,6 +47,18 @@
         },
         "stack": ["TypeScript","React","CSS"],
         "video":"video/screen-visualizadorBondi.webm"
+    },
+    {
+        "name":"Gestor de Parque de Diversiones",
+        "url": "https://ramonenproceso.github.io/CurrentWeek/",
+        "repo":"https://github.com/RamonEnProceso/CurrentWeek",
+        "thumbnail": ["thumbnails/thumbnail-TPAlgoritmos-0.webp"],
+        "description": {
+            "ES":["Aplicación de consola hecha para el TP Integrador de Algoritmos y Estructura de datos en UTN. Mi profesor destacó la modularidad del código, arquitectura de carpetas y sobre todo la interfaz."],
+            "EN":["Console application developed as part of the final project for the Algorithms and Data Structures course at UTN. My professor praised the code modularity, folder structure, and especially the user interface."]
+        },
+        "stack": ["C++"],
+        "video":"video/screen-TPAlgoritmos.webm"
     },
     {
         "name":"Current Week",
