@@ -16,7 +16,7 @@ const ProjectsSection = ({data}:{data:Pick<PageData, "projectsData" | "setProjec
                     <div className={styles.cardProjectLeft}>
                         <h3>{e.name}</h3>
                         <div className={styles.cardProjectStack}>
-                            {e.stack.map((e:string)=>{
+                            {e.stack.slice(0, 3).map((e:string)=>{
                             return <IconDisplay key={e} name={e}/>
                             })}
                         </div>
