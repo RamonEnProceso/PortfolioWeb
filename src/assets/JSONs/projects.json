@@ -4,8 +4,8 @@
         "repo":"https://github.com/RamonEnProceso/Oiku",
         "thumbnail":["thumbnails/thumbnail-oiku-0.webp"],
         "description": {
-            "ES": ["Gestor de gastos enfocado en visualizar, administrar y calcular presupuestos mensuales.", "Pensada para jóvenes independientes buscan controlar sus finanzas.", "Todavía en desarrollo."],
-            "EN": [""]
+            "ES": ["Gestor de gastos enfocado en visualizar, administrar y calcular presupuestos mensuales.", "Pensada para jóvenes independientes que buscan controlar sus finanzas.", "Todavía en desarrollo."],
+            "EN": ["Expense manager focused on visualizing, managing, and calculating monthly budgets.", "Designed for young independent individuals looking to take control of their finances.","Still under development."]
         },
         "stack": ["React","FastAPI","PostgreSQL","TypeScript","Python"],
         "libraries":["Docker","SQLAlchemy","Numpy"]
