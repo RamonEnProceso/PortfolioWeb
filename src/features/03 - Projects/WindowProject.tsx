@@ -44,7 +44,7 @@ const WindowProject = ({data}:{data:Pick<PageData,"project"|"setProject">}) => {
                         autoPlay
                         loop
                         muted
-                        playsInline>--{translateProject("loading")}--</video>:<p>--{translateProject("noPreview")}--</p>}
+                        playsInline>--{translateProject("loading")}--</video>:<img src={projectSelected.thumbnail[0]}/>}
                 </div>
             </div>
         )
