@@ -1,5 +1,28 @@
 [
     {
+        "name": "Oiku",
+        "repo":"https://github.com/RamonEnProceso/Oiku",
+        "thumbnail":["thumbnails/thumbnail-oiku-0.webp"],
+        "description": {
+            "ES": ["Gestor de gastos enfocado en visualizar, administrar y calcular presupuestos mensuales.", "Pensada para jóvenes independientes buscan controlar sus finanzas.", "Todavía en desarrollo."],
+            "EN": [""]
+        },
+        "stack": ["React","FastAPI","PostgreSQL","TypeScript","Python"],
+        "libraries":["Docker","SQLAlchemy","Numpy"]
+    },
+    {
+        "name":"Neo Aula Virtual",
+        "url": "https://neo-aula-virtual.web.app/",
+        "repo":"https://github.com/RamonEnProceso/NeoAulaVirtual",
+        "thumbnail": ["thumbnails/thumbnail-neoAula-0.webp","thumbnails/thumbnail-neoAula-1.webp","thumbnails/thumbnail-neoAula-2.webp"],
+        "description": {
+            "ES": ["Presentado para el CONAIISI 2026.","Fusiona las dos apliciones de la UTN (SIU Guaraní y Aula Virtual), concentrando la experiencia en el alumno.", "Incluye visualizador de Carrera, promedios, lista de tareas y calendario.","Prototipo funcional para propuesta académica, sin backend de datos."],
+            "EN": ["Presented at CONAIISI 2026.","Merges UTN's two separate platforms (SIU Guaraní and Aula Virtual) into a single student-centered experience.","Functional prototype built for an academic proposal, with no data backend."]
+        },
+        "stack": ["TypeScript","React", "CSS"],
+        "video":"video/screen-neoAulaVirtual.webm"
+    },
+    {
         "name":"El Vueltero's Gallery",
         "url": "https://el-vueltero.web.app/",
         "repo":"https://github.com/RamonEnProceso/El-Vueltero-gallery",
@@ -11,30 +34,6 @@
         "stack": ["TypeScript","React", "CSS"],
         "libraries":["Three.js"],
         "video":"video/screen-elVueltero.webm"
-    },
-    {
-        "name":"Neo Aula Virtual",
-        "url": "https://neo-aula-virtual.web.app/",
-        "repo":"https://github.com/RamonEnProceso/NeoAulaVirtual",
-        "thumbnail": ["thumbnails/thumbnail-neoAula-0.webp","thumbnails/thumbnail-neoAula-1.webp","thumbnails/thumbnail-neoAula-2.webp"],
-        "description": {
-            "ES": ["Presentado para el CONAIISI 2026.","Fusiona las dos apliciones de la UTN (SIU Guaraní y Aula Virtual), concentrando la experiencia en el alumno.","Prototipo funcional para propuesta académica, sin backend de datos."],
-            "EN": ["Presented at CONAIISI 2026.","Merges UTN's two separate platforms (SIU Guaraní and Aula Virtual) into a single student-centered experience.","Functional prototype built for an academic proposal, with no data backend."]
-        },
-        "stack": ["TypeScript","React", "CSS"],
-        "video":"video/screen-neoAulaVirtual.webm"
-    },
-    {
-        "name":"Visualizador de Materias UTN",
-        "url": "https://visualizador-materias.web.app/",
-        "repo":"https://github.com/RamonEnProceso/visualizador-cursada-UTN",
-        "thumbnail": ["thumbnails/thumbnail-visualizadorUTN-0.webp","thumbnails/thumbnail-visualizadorUTN-1.webp"],
-        "description": {
-            "ES":["Mi primera app web hecha en TypeScript y modificando el DOM.","Una aplicación creada para visualizar las materias de la UTN.","Permite ver la correlatividad entre materias y hacer un seguimiento visual a medida que se aprueban."],
-            "EN":["My first web app, built with TypeScript and direct DOM manipulation.","Visualizes UTN's course structure, showing prerequisite relationships between subjects and letting students visually track their progress as they pass each one."]
-        },
-        "stack": ["TypeScript","CSS"],
-        "video":"video/screen-visualizadorMaterias.webm"
     },
     {
         "name":"Visualizador de Bondis",
@@ -59,6 +58,18 @@
         },
         "stack": ["C++","WebAssembly"],
         "video":"video/screen-TPAlgoritmos.webm"
+    },
+    {
+        "name":"Visualizador de Materias UTN",
+        "url": "https://visualizador-materias.web.app/",
+        "repo":"https://github.com/RamonEnProceso/visualizador-cursada-UTN",
+        "thumbnail": ["thumbnails/thumbnail-visualizadorUTN-0.webp","thumbnails/thumbnail-visualizadorUTN-1.webp"],
+        "description": {
+            "ES":["Mi primera app web hecha en TypeScript y modificando el DOM.","Una aplicación creada para visualizar las materias de la UTN.","Permite ver la correlatividad entre materias y hacer un seguimiento visual a medida que se aprueban."],
+            "EN":["My first web app, built with TypeScript and direct DOM manipulation.","Visualizes UTN's course structure, showing prerequisite relationships between subjects and letting students visually track their progress as they pass each one."]
+        },
+        "stack": ["TypeScript","CSS"],
+        "video":"video/screen-visualizadorMaterias.webm"
     },
     {
         "name":"Current Week",
