@@ -13,8 +13,8 @@
         "EN":["I’m a Systems Engineering student at UTN and a full-stack developer.", "Beyond coding, I draw and illustrate under my own brand, “El Vueltero”, which gives me a different perspective when designing and working with interfaces."]
     },
     "email":{
-        "user":"ramon.en.proceso",
-        "domain": "gmail.com"
+        "user":"servicios",
+        "domain": "ramirezramon.com.ar"
     },
     "skills": {
         "front": ["TypeScript", "React", "CSS"],
