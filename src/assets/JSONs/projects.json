@@ -8,7 +8,8 @@
             "EN": ["Expense manager focused on visualizing, managing, and calculating monthly budgets.", "Designed for young independent individuals looking to take control of their finances.","Still under development."]
         },
         "stack": ["React","FastAPI","PostgreSQL","TypeScript","Python"],
-        "libraries":["Docker","SQLAlchemy","Numpy"]
+        "libraries":["Docker","SQLAlchemy","Numpy"],
+        "video":"video/screen-oiku.webm"
     },
     {
         "name":"Neo Aula Virtual",
