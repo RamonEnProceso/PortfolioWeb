@@ -139,8 +139,6 @@
         text-align: center;
     }
     .description{
-        max-height: 100px;
-        overflow: scroll;
         max-width: 100%;
     }
     .paragraph{
